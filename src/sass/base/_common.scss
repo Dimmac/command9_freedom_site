@@ -1,3 +1,4 @@
+/*-----Скидування стилів------*/
 h1,
 h2,
 h3,
@@ -37,16 +38,12 @@ address {
   color: inherit;
   font-family: inherit;
   cursor: pointer;
-
-  font-size: 16px;
-  border-radius: 4px;
 }
 
+/*-------------Body--------------*/
 body {
-  font: {
-    weight: 400;
-    size: 14px;
-  }
-  color: #000;
-  letter-spacing: 0.03em;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  font-weight: 300;
 }

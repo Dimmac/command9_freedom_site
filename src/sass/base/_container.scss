@@ -1,0 +1,32 @@
+/*-Контейнер для обмеження контенту по ширині-*/
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-Контейнер для обмеження контенту mobile-версії-*/
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/*-Контейнер для обмеження контенту tablet-версії-*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/*-Контейнер для обмеження контенту desktop-версії-*/
+@media screen and (min-width: 1444px) {
+  .container {
+    width: 1444px;
+    padding-left: 189px;
+    padding-right: 189px;
+  }
+}
