@@ -1,0 +1,33 @@
+// -------Міксин для шрифта
+
+@mixin font($size, $weight, $lheight) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lheight;
+}
+
+// -------Міксин для підключення медіа правил
+
+@mixin for-phone {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+@mixin for-tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin for-desktop {
+  @media (min-width: 1444px) {
+    @content;
+  }
+}
+// usage - Приклад підключення до SASS
+
+/* .my-box {
+  padding: 10px;
+  @include for-desktop {
+    padding: 20px;
+  }
+} */
