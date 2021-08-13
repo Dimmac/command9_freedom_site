@@ -3,6 +3,33 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+/*-----CSS змінні------*/
+:root {
+  --primary-text-color: #2b2b2b;
+  --secondary-text-color: #bdbdbd;
+  --accent-color: #487996;
+  --primary-white-color: #ffffff;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f5fa;
+  --main-font: 'Cera Pro', sans-serif;
+  --secondary-font: 'Caviar Dreams', sans-serif;
+}
+
+/* .my-box {
+  padding: 10px;
+  @include for-desktop {
+    padding: 20px;
+  }
+} */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/*-----Скидування стилів------*/
 h1,
 h2,
 h3,
@@ -42,40 +69,81 @@ address {
   color: inherit;
   font-family: inherit;
   cursor: pointer;
-  font-size: 16px;
-  border-radius: 4px;
 }
 
+/*-------------Body--------------*/
 body {
-  font-weight: 400;
-  font-size: 14px;
-  color: #000;
-  letter-spacing: 0.03em;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  font-weight: 300;
 }
 
-.example {
-  font-family: 'Caviar Dreams', sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #424242;
-  max-width: 960px;
-  padding: 16px;
+/*-Контейнер для обмеження контенту по ширині-*/
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.example code {
-  font-family: 'Caviar Dreams', sans-serif;
+/*-Контейнер для обмеження контенту mobile-версії-*/
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/*-Контейнер для обмеження контенту tablet-версії-*/
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+/*-Контейнер для обмеження контенту desktop-версії-*/
+@media screen and (min-width: 1444px) {
+  .container {
+    width: 1444px;
+    padding-left: 189px;
+    padding-right: 189px;
+  }
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+
+/*-- Стилі для кнопки-- */
+/*-- Стилі для кнопки в hero-- */
+.button {
+  padding: 16px 32px;
+  -webkit-box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1), 5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+          box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1), 5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+  border-radius: 30.5px;
+  border: none;
+  background: var(--secondary-background-color);
+  font-family: inherit;
   font-size: 16px;
-  font-weight: 400;
-  background-color: #009688;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.example .background {
-  height: 240px;
-  background-image: url("../images/demo.jpg");
-  background-size: cover;
-  background-position: center;
+.button:hover, .button:focus {
+  background-color: var(--primary-background-color);
 }
+
+/* @import './example'; */
 /*# sourceMappingURL=main.css.map */

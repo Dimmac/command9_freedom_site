@@ -1,0 +1,30 @@
+/*-- Стилі для кнопки-- */
+@mixin button {
+  padding: 16px 32px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
+    5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+  border-radius: 30.5px;
+  border: none;
+
+  background: var(--secondary-background-color);
+  font-family: inherit;
+  @include font(16px, 700, 1.5);
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*-- Стилі для кнопки в hero-- */
+
+.button {
+  @include button;
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-background-color);
+  }
+}
