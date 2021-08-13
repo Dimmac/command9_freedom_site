@@ -1,0 +1,6 @@
+// Приклад для тренування
+
+p {
+  font-family: var(--secondary-font);
+  @include font(25px, 300, 1.5);
+}
