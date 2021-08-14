@@ -10,11 +10,23 @@
 // BASE
 @import './base/common';
 @import './base/container';
+
+//COMPONENTS
+@import './components/burger-menu';
+@import './components/navigation';
 @import './components/title';
 @import './components/button';
+@import './components/backdrop';
 
 // LAYOUT
 @import './layout/header';
+@import './layout/footer';
+@import './layout/mainpage';
+@import './layout/modelingpage';
+@import './layout/scanningpage';
+@import './layout/printingpage';
+@import './layout/takeorderpage';
+@import './layout/contactspage';
 
 // Стили для файла с примером HTML-фрагмента
 /* @import './example'; */
