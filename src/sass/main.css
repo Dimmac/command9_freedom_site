@@ -115,11 +115,30 @@ body {
   }
 }
 
+/*-Стилі заголовка для mobile-версії-*/
 .title {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.25;
   color: var(--accent-color);
+}
+
+/*-Стилі заголовка для tablet-версії-*/
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+}
+
+/*-Стилі заголовка для desktop-версії-*/
+@media screen and (min-width: 1444px) {
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
 }
 
 /*-- Стилі для кнопки-- */
@@ -153,6 +172,68 @@ p {
   font-size: 25px;
   font-weight: 300;
   line-height: 1.5;
+}
+
+.footer {
+  background-color: var(--secondary-background-color);
+  -webkit-box-shadow: 5px 2px 5px 8px rgba(72, 121, 150, 0.1);
+          box-shadow: 5px 2px 5px 8px rgba(72, 121, 150, 0.1);
+}
+
+.footer-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer-menu {
+  padding-bottom: 24px;
+  list-style: none;
+}
+
+.footer-menu-item {
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2b2b2b;
+}
+
+.hero__title {
+  /* @font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Bold.woff') format('woff'),
+      url('../fonts/CeraPro-Bold.woff2') format('woff2');
+  } */
+  font-size: 24px;
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.hero-order-section {
+  /* background-image: url(../../images/Take-order-page/order-image-mobile.jpg); */
+  border-radius: 15px;
+}
+
+.heroto-description:not(:last-child) {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
 }
 
 /* @import './example'; */
