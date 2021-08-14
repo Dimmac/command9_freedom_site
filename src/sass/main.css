@@ -15,6 +15,9 @@
   --secondary-font: 'Caviar Dreams', sans-serif;
 }
 
+/* Приклад застосування:
+
+@include font(16px, 700, 1.5); */
 /* .my-box {
   padding: 10px;
   @include for-desktop {
@@ -143,6 +146,13 @@ body {
 
 .button:hover, .button:focus {
   background-color: var(--primary-background-color);
+}
+
+p {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 /* @import './example'; */
