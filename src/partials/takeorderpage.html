@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3Д Моделювання</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="../css/fonts.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./sass/main.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <include src="./partials/header.html"></include>
+  <main>
+    <!-- hero_section -->
+    <section class="hero-order-section">
+      <div class="container">
+        <h1 class="main-order-title">ЗРОБИТИ ЗАМОВЛЕННЯ</h1>
+        <p class="heroto-description">
+          На цій сторінці ви можете зробити замовлення заповнивши форму і ми зв'яжемося з вами.
+        </p>
+        <p class="heroto-description">
+          Наші фахівці допоможуть підібрати оптимальні для вас параметри і дадуть відповідь на всі
+          ваші запитання.
+        </p>
+      </div>
+    </section>
+
+    <!-- order form -->
+    <section class="order-form-section">
+      <div class="container">
+        <div class="order-form">
+          <form action="#" class="order-form__main">
+            <h2 class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+            <label class="order-form__label">
+              <span class="order-form__label-wrapper">
+                <input type="text" class="order-form__input" name="user-name" placeholder="Ім’я" minlength="2"
+                  pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Ім'я повинно містити символи кирилиці або латиниці" required />
+              </span>
+            </label>
+            <label class="order-form__label">
+              <span class="order-form__label-wrapper">
+                <input type="email" class="order-form__input" name="user-email" placeholder="Email"
+                  pattern="^[a-zA-Z0-9]+$+@[a-z0-9.-]=\.[a-z]{2,}$" title="test@mail.com" required />
+              </span>
+            </label>
+            <span class="order-form__select-wrapper">
+              <select name="plastic" class="select-options">
+                <option label="Види пластика">Види пластика</option>
+                <option value="300-micron">300 мікрон</option>
+                <option value="200-micron">200 мікрон</option>
+                <option value="100-micron">100 мікрон</option>
+                <option value="select-help">Труднощі у виборі - ми допоможемо</option>
+              </select>
+            </span>
+            <span class="order-form__select-wrapper">
+              <select name="print-quality" class="select-options">
+                <option label="Якіть друку">Якість друку</option>
+                <option value="hight">Висока</option>
+                <option value="medium">Середня</option>
+                <option value="low">Низька</option>
+                <option value="select-help">Труднощі у виборі - ми допоможемо</option>
+              </select>
+            </span>
+            <span class="order-form__select-wrapper">
+              <select name="color" class="select-options">
+                <option label="Колір">Колір</option>
+                <option value="white">Білий</option>
+                <option value="yellow">Жовтий</option>
+                <option value="red">Червоний</option>
+                <option value="blue">Синій</option>
+                <option value="black">Чорний</option>
+                <option value="select-help">Труднощі у виборі - ми допоможемо</option>
+              </select>
+            </span>
+            <label class="order-form__label">
+              Повідомлення
+              <textarea name="user-message" class="order-form__message"
+                placeholder="Залишіть своє повідомлення"></textarea>
+            </label>
+            <label class="order-form__message-notice">
+              *Прикріпіть зображення / креслення / STL / Obj / CAD-модель
+            </label>
+            <button type="submit" class="order-form__btn">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- contacts section -->
+    <section class="contacts-section">
+      <div class="container">
+        <div class="contacts-data">
+          <ul class="contacts-data__list">
+            <li class="contacts-data__item">
+              <h3 class="contacts-data__title">ТЕЛЕФОНИ</h3>
+              <p class="contacts-data__description">+38 (095) -73-84-551</p>
+              <p class="contacts-data__description">+38 (095) -73-84-551</p>
+            </li>
+            <li class="contacts-data__item">
+              <h3 class="contacts-data__title">Email</h3>
+              <p class="contacts-data__description">3dfreedom.info@gmail.com</p>
+            </li>
+            <li class="contacts-data__item">
+              <h3 class="contacts-data__title">Робочий час</h3>
+              <p class="contacts-data__description">
+                Пн-пт: <br />
+                з 8:00 до 19:00
+              </p>
+              <p class="contacts-data__description">
+                Сб, Нд: <br />
+                з 10:00 до 17:00
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+  </main>
+  <!-- footer -->
+  <include src="./partials/footer.html"></include>
+</body>
+
+</html>
