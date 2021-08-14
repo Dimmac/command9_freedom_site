@@ -1,4 +1,92 @@
-<!-- Приклад для тренування -->
+<!-- HEADER -->
+<header>
 
-<h1>тут має бути хедер
-</h1>
+<!-- Логотип крмпанії -->
+    <a href="./index.html" class="logo link">
+        <img src="./images/Logo-image/3DFREEDOM 101x25-mobile.png" alt="Логотип" class="logo__img">
+    </a>
+
+<!-- Навігація по сайту -->
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li class="nav-list__item"><a href="./index.html" class="nav-list__link link">ГОЛОВНА</a></li>
+            <li class="nav-list__item"><a href="" class="nav-list__link link">ПОСЛУГИ</a>
+                
+                
+                <!-- <ul>
+                    <li><a href="" class="link">3D Моделювання</a></li>
+                    <li><a href="" class="link">3D Сканування</a></li>
+                    <li><a href="" class="link">3D Друк</a></li>
+                </ul> -->
+            </li>
+            <li class="nav-list__item"><a href="" class="nav-list__link link">ЗАМОВИТИ</a></li>
+            <li class="nav-list__item"><a href="" class="nav-list__link link">КОНТАКТИ</a></li>
+        </ul>
+    </nav>
+
+<!-- Кнопка відкриття і закриття мобільного меню -->
+
+    <button type="button" class="burger-btn burger-btn--open">
+        <svg class="burger-btn__icon" width="32" height="32">
+            <use href="./images/SVG-icon/svg_sprite-defs.svg#burger_menu_icon"></use>
+        </svg>
+    </button>
+    <button type="button" class="burger-btn burger-btn--close">
+        <svg class="burger-btn__icon" width="32" height="32">
+            <use href="./images/SVG-icon/svg_sprite-defs.svg#close_icon"></use>
+        </svg>
+    </button>
+
+<!-- Кнопка виклику контактів -->
+
+    <button type="button" class="tel__btn">
+        <svg class="tel__icon" width="32" height="32">
+            <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+        </svg>
+    </button>
+
+        <ul class="tel-list">
+            <li>
+                <a href="tel:+380936432288">
+                    <svg class="tel__icon" width="32" height="32">
+                        <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+                    </svg>
+                    +38 (093) 643 22 88
+                </a>
+            </li>
+            <li>
+                <a href="tel:+380503454423">
+                    <svg class="tel__icon" width="32" height="32">
+                        <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+                    </svg>
+                    +38 (050) 345 44 23
+                </a>
+            </li>
+        </ul>
+
+<!-- Випадаюче меню для зміни мови -->
+    <select name="lang" id="">
+        <option value="ENG">ENG</option>
+        <option value="UKR">UKR</option>
+        <option value="RUS">RUS</option>
+    </select>
+
+
+<!-- Мобільне меню -->
+    <div class="mobile-menu">
+        <div class="container-mobile">
+            <ul>
+                <li><a href="">ГОЛОВНА</a></li>
+                <li><a href="">ПОСЛУГИ</a>
+                    <ul>
+                        <li><a href="">3D Моделювання</a></li>
+                        <li><a href="">3D Сканування</a></li>
+                        <li><a href="">3D Друк</a></li>
+                    </ul>
+                </li>
+                <li><a href="">ЗАМОВИТИ</a></li>
+                <li><a href="">КОНТАКТИ</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
