@@ -3,14 +3,8 @@
 }
 
 .creation__title {
-  @font-face {
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url('../fonts/CeraPro-Bold.woff') format('woff'),
-      url('../fonts/CeraPro-Bold.woff2') format('woff2');
-  }
+  font-family: var(--main-font);
+  font-style: normal;
 
   @include font(18px, 700, 1.28);
   text-transform: uppercase;

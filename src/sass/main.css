@@ -207,6 +207,8 @@ p {
 }
 
 .hero-mod__title {
+  font-family: var(--main-font);
+  font-style: normal;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.25;
@@ -214,33 +216,14 @@ p {
   color: var(--accent-color);
 }
 
-@font-face {
-  .hero-mod__title {
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.woff2") format("woff2");
-  }
-}
-
 .hero-mod__text,
 .creation__item {
+  font-family: var(--main-font);
+  font-style: normal;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.25;
   color: var(--primary-text-color);
-}
-
-@font-face {
-  .hero-mod__text,
-  .creation__item {
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url("../fonts/CeraPro-Light.woff") format("woff"), url("../fonts/CeraPro-Light.woff2") format("woff2");
-  }
 }
 
 .hero-mod__text:not(:last-child) {
@@ -256,22 +239,14 @@ p {
 }
 
 .creation__title {
+  font-family: var(--main-font);
+  font-style: normal;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.28;
   text-transform: uppercase;
   margin-bottom: 16px;
   color: var(--accent-color);
-}
-
-@font-face {
-  .creation__title {
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.woff2") format("woff2");
-  }
 }
 
 .creation__item:not(:last-child) {
@@ -289,22 +264,14 @@ p {
 }
 
 .example__title {
+  font-family: var(--main-font);
+  font-style: normal;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
   margin-bottom: 16px;
   color: var(--accent-color);
-}
-
-@font-face {
-  .example__title {
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("../fonts/CeraPro-Bold.woff") format("woff"), url("../fonts/CeraPro-Bold.woff2") format("woff2");
-  }
 }
 
 .example__list {
