@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,110 @@
     <link rel="stylesheet" href="./sass/main.css" />
 </head>
 <body>
+    <main>
+        <include src="./partials/BaseComponents/header.html"></include>
+        <section class="descrition">
+            <div class="container">
+                <h1>КОНТАКТИ</h1>
+                <div class="descrition">
+                    <img src="#" alt="імітація відео" width="320" />
+                </div>
+                <div class="descrition__text">
+                    <p class="descrition__text-item">Людина уперше побачивши процес 3D друку може легко захопитися спостереженням за
+                        цим процесом не на десяток хвилин.</p>
+                    <p class="descrition__text-item">Наша команда створює timelapse відео що б ви могли краще ознайомитися з
+                        технологією 3D друку і просто помилуватися
+                        красою цього процесу.</p>
+                    <p class="descrition__text-item">Приємного перегляду!</p>
+                    <use>
+                        <svg href=""></svg>
+                        <!-- smile -->
+                    </use>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us">
+            <div class="container">
+                <div class="order-form">
+                    <form action="#" class="order-form__main">
+                        <h2 class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+                        <label class="order-form__label">
+                            <span class="order-form__label-wrapper">
+                                <input type="text" class="order-form__input" name="user-name" placeholder="Ім’я" minlength="2"
+                                    pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Ім'я повинно містити символи кирилиці або латиниці"
+                                    required />
+                            </span>
+                        </label>
+                        <label class="order-form__label">
+                            <span class="order-form__label-wrapper">
+                                <input type="email" class="order-form__input" name="user-email" placeholder="Email"
+                                    pattern="^[a-zA-Z0-9]+$+@[a-z0-9.-]=\.[a-z]{2,}$" title="test@mail.com" required />
+                            </span>
+                        </label>
+
+                        <label class="order-form__label">
+                            Повідомлення
+                            <textarea name="user-message" class="order-form__message"
+                                placeholder="Залишіть своє повідомлення"></textarea>
+                        </label>
+                        <label class="order-form__message-notice">
+                            *Прикріпіть зображення / креслення / STL / Obj / CAD-модель
+                        </label>
+                        <button type="submit" class="order-form__btn">Відправити</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__phones">
+                    <h2 class="contacts__phones-title">ТЕЛЕФОНИ</h2>
+                    <div class="contacts__phones-wrapper">
+                        <a href="" class="contacts__phones-item">+38 (095) -73-84-551</a>
+                        <a href="" class="contacts__phones-item">+38 (098) -00-25-235</a>
+                    </div>
+                </div>
+                <div class="contacts__mail">
+                    <h2 class="contacts__mail-title">Email</h2>
+                    <div class="contacts__mail-wrapper">
+                        <a href="">3dfreedom.info@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contacts__worktime">
+                    <h2 class="contacts__worktime-title">Робочий час</h2>
+                    <div class="contacts__worktime-wrapper">
+                        <p class="contacts__worktime-item">Пн-пт: з 8:00 до 19:00</p>
+                        <p class="contacts__worktime-item">Сб, Нд: з 10:00 до 17:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
     <!-- ХТО РОБИТЬ КОНТАКТИ, ГЛЯНЬ ТАК ПІДКЛЮЧАЮТЬСЯ ПОСИЛАННЯ НА ІНШІ СТОРІНКИ-->
     <a class="link" href="./index.html">Головне меню</a>
 </body>
