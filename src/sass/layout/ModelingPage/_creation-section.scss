@@ -1,0 +1,28 @@
+.creation {
+  margin-bottom: 52px;
+}
+
+.creation__title {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(18px, 700, 1.28);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+}
+
+.creation__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.creation__item::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  border-radius: 3px 0px;
+  background: var(--accent-color);
+}
