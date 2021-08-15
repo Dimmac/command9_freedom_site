@@ -1,0 +1,32 @@
+<section class="contacts">
+    <div class="container">
+        <div class="order-form">
+            <form action="#" class="order-form__main">
+                <h2 class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+                <label class="order-form__label">
+                    <span class="order-form__label-wrapper">
+                        <input type="text" class="order-form__input" name="user-name" placeholder="Ім’я" minlength="2"
+                            pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Ім'я повинно містити символи кирилиці або латиниці"
+                            required />
+                    </span>
+                </label>
+                <label class="order-form__label">
+                    <span class="order-form__label-wrapper">
+                        <input type="email" class="order-form__input" name="user-email" placeholder="Email"
+                            pattern="^[a-zA-Z0-9]+$+@[a-z0-9.-]=\.[a-z]{2,}$" title="test@mail.com" required />
+                    </span>
+                </label>
+
+                <label class="order-form__label">
+                    Повідомлення
+                    <textarea name="user-message" class="order-form__message"
+                        placeholder="Залишіть своє повідомлення"></textarea>
+                </label>
+                <label class="order-form__message-notice">
+                    *Прикріпіть зображення / креслення / STL / Obj / CAD-модель
+                </label>
+                <button type="submit" class="order-form__btn">Відправити</button>
+            </form>
+        </div>
+    </div>
+</section>
