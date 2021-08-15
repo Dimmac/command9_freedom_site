@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3Д Моделювання</title>
+    <title>contactspage</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="./sass/main.css" />
 </head>
 <body>
+    <include src="./partials/BaseComponents/header.html"></include>
+    <main>
+        <include src="./partials/contactspage/hero.html"></include>
+        <include src="./partials/contactspage/contacts-list.html"></include>
+        <include src="./partials/contactspage/contact-form.html"></include>
+    </main>
     <!-- ХТО РОБИТЬ КОНТАКТИ, ГЛЯНЬ ТАК ПІДКЛЮЧАЮТЬСЯ ПОСИЛАННЯ НА ІНШІ СТОРІНКИ-->
-    <a class="link" href="./index.html">Головне меню</a>
+    <!-- <a class="link" href="./index.html">Головне меню</a> -->
+    <include src="./partials/BaseComponents/footer.html"></include>
 </body>
 </html>
