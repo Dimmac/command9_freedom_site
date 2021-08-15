@@ -5,6 +5,7 @@
 // UTILS
 @import './utils/variables';
 @import './utils/mixin';
+@import './utils/mixin-font-decimal';
 @import './utils/visually-hidden';
 
 // BASE
@@ -42,7 +43,9 @@
 @import './layout/TakeOrderPage/takeorderpage';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
-@import './layout/ContactsPage/contactspage';
+@import './layout/ContactsPage/contacts-hero';
+@import './layout/ContactsPage/contacts-form';
+@import './layout/ContactsPage/contacts-list';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 // Стили для файла с примером HTML-фрагмента
