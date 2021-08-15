@@ -1,0 +1,42 @@
+.hero-mod {
+  margin-top: 32px;
+  margin-bottom: 52px;
+}
+
+.hero-mod__title {
+  @font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Bold.woff') format('woff'),
+      url('../fonts/CeraPro-Bold.woff2') format('woff2');
+  }
+
+  @include font(24px, 700, 1.25);
+  margin-bottom: 16px;
+  color: var(--accent-color);
+}
+
+.hero-mod__text,
+.creation__item {
+  @font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Light.woff') format('woff'),
+      url('../fonts/CeraPro-Light.woff2') format('woff2');
+  }
+  @include font(16px, 300, 1.25);
+
+  color: var(--primary-text-color);
+}
+
+.hero-mod__text:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.example {
+  margin-bottom: 76px;
+}

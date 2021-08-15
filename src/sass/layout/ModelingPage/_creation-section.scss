@@ -1,0 +1,34 @@
+.creation {
+  margin-bottom: 52px;
+}
+
+.creation__title {
+  @font-face {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/CeraPro-Bold.woff') format('woff'),
+      url('../fonts/CeraPro-Bold.woff2') format('woff2');
+  }
+
+  @include font(18px, 700, 1.28);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+}
+
+.creation__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.creation__item::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  border-radius: 3px 0px;
+  background: var(--accent-color);
+}
