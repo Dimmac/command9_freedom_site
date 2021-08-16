@@ -1,5 +1,6 @@
 .contacts-form {
   margin-top: 52px;
+  margin-bottom: 52px;
 }
 .contacts-form__title {
   margin-bottom: 28px;
@@ -39,4 +40,15 @@
 }
 .contacts-form__btn {
   @include button;
+  width: 100%;
+}
+.paper_clip_wrapper {
+  position: relative;
+}
+.paper_clip_icon {
+  position: absolute;
+  bottom: 21px;
+  right: 21px;
+  width: 22px;
+  height: 20px;
 }
