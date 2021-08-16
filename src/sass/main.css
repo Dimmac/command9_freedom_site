@@ -544,7 +544,7 @@ p {
     font-size: 18px;
     font-weight: 300;
     line-height: 1.28;
-    color: aqua;
+    color: #e9127e;
   }
   .jpg-scan {
     background-image: url(../images/3D-Scanning-page/Scanning_photo1-desktop.jpg);
@@ -674,6 +674,41 @@ p {
   line-height: 1.25;
   color: var(--primary-text-color);
   margin-bottom: 16px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.description__text {
+  background-color: aqua;
+}
+
+.description__text-item {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+}
+
+.smile {
+  width: 22px;
+  margin-left: 8px;
+}
+
+.smile-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contacts-form {
+  margin-top: 52px;
 }
 
 /* @import './example'; */

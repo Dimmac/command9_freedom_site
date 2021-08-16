@@ -71,7 +71,10 @@
    
 }
 .hero3d__text{
+
+  
   @include font(18px, 300, 1.28);
+  color: var(--accent-color);
   
 }
 .jpg-scan{
