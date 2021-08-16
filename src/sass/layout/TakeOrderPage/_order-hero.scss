@@ -22,7 +22,7 @@
   
   @media screen and (min-width: 768px) {
     .img{
-      max-width: 220px;
+      max-width: none;
     }
     .title{
       text-align: left;
@@ -35,7 +35,7 @@
       justify-content: center;    
     }
     .heroto-description:not(:last-child){
-      margin-top: none;
+      margin-top: 0px;
       margin-bottom: 16px;
     }
   
@@ -44,6 +44,6 @@
     }
   }
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 1444px){
 
   }
