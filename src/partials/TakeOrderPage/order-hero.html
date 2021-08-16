@@ -1,7 +1,36 @@
 <!-- hero_section -->
-    <section class="hero-order-section">
-      <div class="container">
-        <h1 class="title">ЗРОБИТИ ЗАМОВЛЕННЯ</h1>
+<section class="hero-order-section">
+  <div class="container hero-order_container">
+    <h1 class="title">ЗРОБИТИ ЗАМОВЛЕННЯ</h1>
+    <div class="hero-order__wraper">
+      <picture class="order-picture">
+        <source media="(min-width: 1444px)" srcset="
+              ./images/Take-order-page/order-image-desktop.webp    1x,
+              ./images/Take-order-page/order-image-desktop@2x.webp 2x
+            " type="image/webp" />
+        <source media="(min-width: 1444px)" srcset="
+              ./images/Take-order-page/order-image-desktop.jpg    1x,
+              ./images/Take-order-page/order-image-desktop.jpg 2x
+            " />
+        <source media="(min-width: 768px)" srcset="
+              ./images/Take-order-page/order-image-tablet.webp    1x,
+              ./images/Take-order-page/order-image-tablet@2x.webp 2x
+            " type="image/webp" />
+        <source media="(min-width: 768px)" srcset="
+              ./images/Take-order-page/order-image-tablet.jpg    1x,
+              ./images/Take-order-page/order-image-tablet@2x.jpg 2x
+            " />
+        <source media="(min-width: 320px)" srcset="
+              ./images/Take-order-page/order-image-mobile.webp    1x,
+              ./images/Take-order-page/order-image-mobile@2x.webp 2x
+            " type="image/webp" />
+        <source media="(min-width: 320px)" srcset="
+              ./images/Take-order-page/order-image-mobile.jpg 1x,
+              ./images/Take-order-page/order-image-mobile@2x.jpg 2x
+            " />
+        <img class="hero-order-img" src="#" alt="Игорь Демьяненко" />
+      </picture>
+      <div class="description-wraper">
         <p class="heroto-description">
           На цій сторінці ви можете зробити замовлення заповнивши форму і ми зв'яжемося з вами.
         </p>
@@ -10,4 +39,6 @@
           ваші запитання.
         </p>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
