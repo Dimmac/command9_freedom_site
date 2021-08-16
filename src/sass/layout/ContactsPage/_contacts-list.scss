@@ -1,39 +1,4 @@
-.order-form {
-}
-.order-form__main {
-}
-.order-form__title {
-  margin-bottom: 28px;
-}
-.order-form__label {
-}
-.order-form__label-wrapper {
-  width: 100%;
-}
-.order-form__input {
-  width: 100%;
-  margin-bottom: 44px;
-  padding-bottom: 4px;
-  border: none;
-  border-bottom: 1px solid #487996;
-}
-.order-form__word {
-  margin-bottom: 4px;
-}
-.order-form__message {
-  width: 100%;
-  height: 199px;
-  margin-top: 4px;
-  padding: 22px;
-  border: 1px solid #487996;
-  box-sizing: border-box;
-  border-radius: 50px 0px;
-}
-.order-form__message-notice {
-  margin-top: 4px;
-  margin-bottom: 24px;
-}
-.order-form__btn {
-  @include button;
-  margin-top: 100px;
+.contacts-list {
+  margin-top: 52px;
+  background-color: aquamarine;
 }
