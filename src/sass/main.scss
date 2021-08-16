@@ -19,14 +19,32 @@
 @import './components/backdrop';
 
 // LAYOUT
-@import './layout/header';
-@import './layout/footer';
-@import './layout/mainpage';
-@import './layout/modelingpage';
-@import './layout/scanningpage';
-@import './layout/printingpage';
-@import './layout/takeorderpage';
-@import './layout/contactspage';
+@import './layout/Header/header';
+@import './layout/Header/dropup-button';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/Footer/footer';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/MainPage/mainpage';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/ModelingPage/hero-modeling';
+@import './layout/ModelingPage/creation-section';
+@import './layout/ModelingPage/example-section';
+
+@import './layout/ScanningPage/hero3d';
+@import './layout/ScanningPage/scanning3d';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/PrintingPage/printingpage';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/TakeOrderPage/takeorderpage';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/ContactsPage/contactspage';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 // Стили для файла с примером HTML-фрагмента
 /* @import './example'; */

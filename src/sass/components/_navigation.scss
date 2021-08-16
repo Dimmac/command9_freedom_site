@@ -1,0 +1,5 @@
+.navigation {
+  @include for-phone {
+    display: none;
+  }
+}

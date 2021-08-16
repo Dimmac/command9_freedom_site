@@ -1,0 +1,29 @@
+.header {
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 29px 0;
+}
+
+.logo {
+  margin-right: 23px;
+}
+
+.burger-btn {
+  margin-right: 46px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-background-color);
+    border-radius: 4px;
+  }
+}
+
+// Приклад для тренування
+
+// p {
+//   font-family: var(--secondary-font);
+//   @include font(25px, 300, 1.5);
+// }
