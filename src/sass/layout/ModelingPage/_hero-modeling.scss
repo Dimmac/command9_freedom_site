@@ -1,31 +1,47 @@
 .hero-mod {
   margin-top: 32px;
   margin-bottom: 52px;
+
+  @media screen and(min-width:1444px) {
+    margin-top: 85px;
+    margin-bottom: 100px;
+  }
 }
 
 .hero-mod__title {
-  font-family: var(--main-font);
-  font-style: normal;
+  display: flex;
+  align-items: start;
 
-  @include font(24px, 700, 1.25);
-  margin-bottom: 16px;
-  color: var(--accent-color);
+  @media screen and(min-width:1444px) {
+    margin-bottom: 24px;
+  }
 }
 
-.hero-mod__text,
-.creation__item {
-  font-family: var(--main-font);
-  font-style: normal;
+.wrapper-text {
+  @media screen and(min-width: 1444px) {
+    display: flex;
+  }
+}
 
+.hero-mod__text {
   @include font(16px, 300, 1.25);
+  font-family: var(--main-font);
 
   color: var(--primary-text-color);
+
+  @media screen and(min-width:768px) {
+    max-width: 515px;
+  }
+
+  @media screen and(min-width:1444px) {
+    @include font(18px, 300, 1.28);
+  }
 }
 
 .hero-mod__text:not(:last-child) {
   margin-bottom: 16px;
-}
 
-.example {
-  margin-bottom: 76px;
+  @media screen and(min-width: 1444px) {
+    margin-right: 32px;
+  }
 }
