@@ -3,9 +3,9 @@
   margin-bottom: 16px;
 }
 .description__text {
-  background-color: aqua;
 }
 .description__text-item {
+  font-family: var(--main-font);
   margin-top: 16px;
   @include font-dec(300, 16px, 20px);
   color: var(--primary-text-color);
