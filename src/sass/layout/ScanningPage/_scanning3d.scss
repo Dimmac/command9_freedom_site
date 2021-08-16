@@ -34,48 +34,15 @@
   box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
 border-radius: 50px 0px;
 
-//   &::before{
-//     content: url(../images/3D-Scanning-page/Scan_process1-mobile.jpg);
-    
-//    overflow: hidden;
-//     padding-left: 15px;
-//     padding-right: 15px;
-    
-    
-// }
-}
-.bbb{
-  
- overflow: hidden;
-}
-.bbb::before{
+  &::before{
     content: url(../images/3D-Scanning-page/Scan_process1-mobile.jpg);
+    
    overflow: hidden;
-   
-    width: 100%;
-    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
     
 }
-
-.aaa::before{
-    content: url(../images/3D-Scanning-page/Scan_process2-mobile.jpg);
-   overflow: hidden;
-    padding-left: 20px;
-    padding-right: 15px;
-
-}
-
-.ccc::before{
-content: url(../images/3D-Scanning-page/Scan_process3-mobile.jpg);
-   overflow: hidden;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.hhh::before{
-content: url(../images/3D-Scanning-page/Scan_process4-mobile.jpg);  
-   overflow: hidden;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .card3d__title{
     padding-top: 18px;
