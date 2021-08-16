@@ -477,6 +477,14 @@ p {
   margin-bottom: 75px;
 }
 
+.hero3d__text {
+  color: red;
+}
+
+.card3d__title {
+  color: #e141a4;
+}
+
 .title {
   text-align: center;
   margin-bottom: 16px;
