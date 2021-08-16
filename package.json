@@ -8,7 +8,6 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /command9_freedom_site/"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dimmac/command9_freedom_site.git"
@@ -25,5 +24,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }

@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3Д Моделювання</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>3Д Моделювання</title>
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="../css/fonts.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./sass/main.css" />
-</head>
-
-<body>
-  <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-  <!-- <include src="./partials/header.html"></include>
+  <body>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <!-- <include src="./partials/header.html"></include>
     <include src="./partials/mainpage.html"></include>
     <include src="./partials/footer.html"></include>
     <include src="./partials/modelingpage.html"></include>
@@ -26,12 +29,13 @@
     <include src="./partials/takeorderpage.html"></include>
     <include src="./partials/contactspage.html"></include> -->
 
-  <include src="./partials/BaseComponents/header.html"></include>
-  <include src="./partials/MainPage/mainpage.html"></include>
-  <include src="./partials/BaseComponents/footer.html"></include>
+    <include src="./partials/BaseComponents/header.html"></include>
+    <!-- <include src="./partials/MainPage/mainpage.html"></include> -->
+    <include src="./partials/MainPage/morefoto.html"></include>
+    <include src="./partials/BaseComponents/footer.html"></include>
 
-  <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-  <script src="./index.js"></script>
-</body>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
 
+    <script src="./index.js"></script>
+  </body>
 </html>
