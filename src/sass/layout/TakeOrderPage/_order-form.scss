@@ -1,0 +1,109 @@
+/* form */
+.order-form__main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 52px;
+  }
+  
+  .order-form__title{
+    font-family: Cera Pro;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.28;
+    color: var(--accent-color);
+    margin-bottom: 28px;
+  }
+  
+  .order-form__input{
+    width: 100%;
+    height: 24px;
+    border: none;
+    margin-bottom: 44px;
+    border-bottom: 1px solid var(--accent-color);
+    color: var(--primary-text-color);
+  }
+  
+  :focus {
+    outline: none;
+  } 
+  
+  .order-form__input::placeholder{
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+    }
+    
+  
+  .select-options{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+    width: 100%;
+    height: 24px;
+    border: none;
+    margin-bottom: 44px;
+    border-bottom: 1px solid var(--accent-color);
+    color: var(--primary-text-color);
+    appearance: none;
+    overflow: hidden;
+    background: url(../images/SVG-icon/icons/arrow_icon.svg) no-repeat right;
+    cursor: pointer;
+    transition-duration: 1000ms;
+    transition-property: transform;   
+  }
+  
+  .select-options:focus{
+    background: url(../images/SVG-icon/icons/arrow_icon_focus.svg) no-repeat right;
+  }
+  
+  
+  /* .select-options::after{
+    position: absolute;
+    display: block;
+    content: "▼";
+    background-image: url(../images/SVG-icon/icons/arrow_icon.svg);
+    background-repeat: no-repeat;
+      background-position: 90% 90%;
+      width: 25px;
+    height: 25px;
+  } */
+  
+  
+  .order-form__label{
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+    
+  }
+  
+  .order-form__message{
+  width: 280px;
+  height: 200px;
+  border: 1px solid var(--accent-color);
+  border-radius: 50px 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 20px 22px;
+  resize: none;
+  background-image: url(../images/SVG-icon/icons/paper_clip_icon.svg);
+      background-repeat: no-repeat;
+      background-position: 90% 90%;
+  }
+  
+  .order-form__message::placeholder{
+    color: #CDCDCD;
+  }
+  
+  .order-form__message-notice{
+    color: #CDCDCD;
+    margin-bottom: 24px;
+  }
+  
+  .button{
+    width: 280px;
+    height: 56px;
+    align-self: center;
+    margin-bottom: 52px;
+  }
