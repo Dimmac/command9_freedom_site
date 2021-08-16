@@ -1,3 +1,52 @@
+.scanning3d__title{
+    font-family: var(--main-font);
+  font-style: normal;
+  margin-bottom: 19px;
+
+  @include font(18px, 700, 1.27);
+  text-transform: uppercase;
+ 
+
+  color: var(--accent-color);
+}
+.scanning3d__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-left: -15px;
+  
+  
+}
+
+.scanning3d__card{
+    width: 133px;
+    height: 182px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 14px;
+ overflow: hidden;
+  flex-basis: calc((100% - 2 * 15px) / 2);
+
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
+border-radius: 50px 0px;
+
+  &::before{
+    content: url(../images/3D-Scanning-page/Scan_process1-mobile.jpg);
+    
+   overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
+}
 .card3d__title{
-    color: rgb(225, 65, 164);
+    padding-top: 18px;
+}
+
+.button-scann {
+  display: block;
+margin-top: 52px;
+margin-bottom: 76px;
 }
