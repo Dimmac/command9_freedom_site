@@ -1,3 +1,36 @@
+.hero3d__title{
+    font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(24px, 700, 1.25);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+}
+
 .hero3d__text{
-    color: red;
+      font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(16px, 300, 1.25);
+
+  color: var(--primary-text-color);
+
+  
+&:not(:last-child) {
+  margin-bottom: 16px;
+
+}
+}
+
+.jpg-scan{
+ background-image: url(../images/3D-Scanning-page/Scanning_photo1-mobile.jpg);
+ background-color: var(--primary-white-color);;
+ background-repeat:no-repeat;
+ 
+ padding-bottom: 232px;
+ background-position:20% 100%;
+ margin-bottom: 16px;
+ 
 }
