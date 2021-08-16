@@ -41,7 +41,9 @@
 @import './layout/PrintingPage/printingpage';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
-@import './layout/TakeOrderPage/takeorderpage';
+@import './layout/TakeOrderPage/order-hero';
+@import './layout/TakeOrderPage/order-form';
+@import './layout/TakeOrderPage/contacts-info';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 @import './layout/ContactsPage/contacts-hero';
