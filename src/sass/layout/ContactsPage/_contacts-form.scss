@@ -1,3 +1,42 @@
 .contacts-form {
   margin-top: 52px;
 }
+.contacts-form__title {
+  margin-bottom: 28px;
+}
+.contacts-form__label-wrapper {
+  width: 100%;
+}
+.contacts-form__input {
+  width: 100%;
+  margin-bottom: 44px;
+  padding-bottom: 4px;
+  border: none;
+  border-bottom: 1px solid #487996;
+}
+.contacts-form__word {
+  margin-bottom: 4px;
+}
+.contacts-form__message {
+  width: 100%;
+  height: 199px;
+  margin-top: 4px;
+  padding: 22px;
+  border: 1px solid #487996;
+  box-sizing: border-box;
+  border-radius: 50px 0px;
+}
+.contacts-form__message::placeholder {
+  color: var(--notice-color);
+}
+.contacts-form__message-notice {
+  margin-top: 4px;
+  margin-bottom: 24px;
+  font-family: var(--main-font);
+  margin-top: 16px;
+  @include font-dec(400, 16px, 20px);
+  color: var(--notice-color);
+}
+.contacts-form__btn {
+  @include button;
+}
