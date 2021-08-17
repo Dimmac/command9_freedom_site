@@ -27,8 +27,7 @@
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 @import './layout/MainPage/mainpage';
-@import './layout/MainPage/hero';
-@import './layout/MainPage/gallery';
+@import './layout/MainPage/bg-main-page';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 @import './layout/ModelingPage/hero-modeling';
@@ -42,12 +41,14 @@
 @import './layout/PrintingPage/printingpage';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
-@import './layout/TakeOrderPage/takeorderpage';
+@import './layout/TakeOrderPage/order-hero';
+@import './layout/TakeOrderPage/order-form';
+@import './layout/TakeOrderPage/contacts-info';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 @import './layout/ContactsPage/contacts-hero';
 @import './layout/ContactsPage/contacts-form';
-@import './layout/ContactsPage/contacts-list';
+@import './layout/TakeOrderPage/contacts-info';
 // Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 // Стили для файла с примером HTML-фрагмента
