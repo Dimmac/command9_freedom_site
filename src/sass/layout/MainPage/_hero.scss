@@ -46,6 +46,9 @@
   text-align: center;
 }
 
+.anchor-svg {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .anchor-svg {
     position: absolute;
@@ -54,5 +57,8 @@
   }
   .anchor-container {
     position: relative;
+  }
+  .anchor-svg {
+    display: none;
   }
 }
