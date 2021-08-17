@@ -383,6 +383,8 @@ p {
   }
   .more-foto__item {
     margin-bottom: 32px;
+    height: 720px;
+    overflow-y: scroll;
   }
   .more-foto__list:not(:last-child) {
     margin-bottom: 16px;
