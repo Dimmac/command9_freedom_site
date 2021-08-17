@@ -412,6 +412,129 @@ p {
   padding-bottom: 8px;
 }
 
+.hero {
+  margin-bottom: 52px;
+}
+
+.hero__title-container {
+  max-width: 624px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.hero__title {
+  font-family: Caviar Dreams;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #2b2b2b;
+  margin-top: 32px;
+}
+
+.hero_content {
+  margin-bottom: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__items:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hero__img {
+  -webkit-filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.3));
+}
+
+.hero__img1 {
+  border-radius: 0px 35px 0px 0px;
+}
+
+.hero__img2 {
+  border-radius: 50%;
+}
+
+.hero__img3 {
+  border-radius: 0px 35px 0px 35px;
+}
+
+.hero__desc {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.anchor-svg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .anchor-svg {
+    position: absolute;
+    bottom: -15px;
+    left: 134px;
+  }
+  .anchor-container {
+    position: relative;
+  }
+  .anchor-svg {
+    display: none;
+  }
+}
+
+.gallery {
+  margin-bottom: 52px;
+}
+
+.gallery__desc {
+  font-size: 16px;
+  line-height: 1.26;
+  color: #487996;
+  margin-top: 8px;
+}
+
+.gallery__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.gallery__link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+    margin-right: -18px;
+  }
+  .gallery__item {
+    -ms-flex-preferred-size: calc((100% - 36px) / 2);
+        flex-basis: calc((100% - 36px) / 2);
+    margin-right: 18px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .gallery__desc {
+    font-size: 18px;
+  }
+  .gallery__item {
+    -ms-flex-preferred-size: calc((100% - 52px) / 2);
+        flex-basis: calc((100% - 52px) / 2);
+  }
+}
+
 .bg {
   background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
   background-size: 320px;
