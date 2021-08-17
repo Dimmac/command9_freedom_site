@@ -1,6 +1,56 @@
+.header {
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 29px 0;
+
+  @include for-tablet {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+}
+
+.logo {
+  margin-right: 23px;
+}
+
+.burger-btn {
+  margin-right: 46px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-background-color);
+    border-radius: 4px;
+  }
+
+  @include for-tablet {
+    margin-right: 0;
+    flex-grow: 1;
+  }
+
+  @include for-desktop {
+    display: none;
+  }
+}
+
+// змінити стилі з допомогою jqury
+.lang {
+  border: none;
+
+  font-family: Caviar Dreams;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: #bdbdbd;
+}
+
 // Приклад для тренування
 
-p {
-  font-family: var(--secondary-font);
-  @include font(25px, 300, 1.5);
-}
+// p {
+//   font-family: var(--secondary-font);
+//   @include font(25px, 300, 1.5);
+// }
