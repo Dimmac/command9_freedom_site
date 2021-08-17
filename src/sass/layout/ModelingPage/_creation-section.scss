@@ -1,10 +1,12 @@
 .creation {
-  position: relative;
   margin-bottom: 52px;
 
   @media screen and(min-width:1444px) {
     margin-bottom: 100px;
   }
+}
+.creation-container {
+  position: relative;
 }
 
 .creation__title {
@@ -78,6 +80,6 @@
     min-height: 302px;
     margin: 0;
     top: -70px;
-    right: 190px;
+    right: 175px;
   }
 }
