@@ -70,3 +70,24 @@
     margin-top: 44px;
   }
 }
+@media screen and(max-width: 1443.98px) {
+  .contacts-visible {
+    display: none;
+  }
+}
+@include for-desktop {
+  .contacts-summ-section {
+    display: flex;
+  }
+  .contacts-wrapper {
+    display: none;
+  }
+  .contacts-data {
+    background-color: aqua;
+    display: flex;
+  }
+}
+
+.contacts-include-wrapper {
+  display: flex;
+}
