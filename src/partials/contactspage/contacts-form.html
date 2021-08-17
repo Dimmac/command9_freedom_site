@@ -1,0 +1,38 @@
+<section>
+    <div class="container">
+        <div class="contacts-form">
+            <form action="#" class="contacts-form__main">
+                <h2 class="contacts-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+                <label class="contacts-form__label">
+                    <span class="contacts-form__label-wrapper">
+                        <input type="text" class="contacts-form__input" name="user-name" placeholder="Ім’я" minlength="2"
+                            pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Ім'я повинно містити символи кирилиці або латиниці"
+                            required />
+                    </span>
+                </label>
+                <label class="contacts-form__label">
+                    <span class="contacts-form__label-wrapper">
+                        <input type="email" class="contacts-form__input" name="user-email" placeholder="Email"
+                            pattern="^[a-zA-Z0-9]+$+@[a-z0-9.-]=\.[a-z]{2,}$" title="test@mail.com" required />
+                    </span>
+                </label>
+                <span class="contacts-form__word">Повідомлення</span>
+                <div class="paper_clip_wrapper">
+                    <svg class="paper_clip_icon">
+                        <use xlink:href="./images/SVG-icon/svg_sprite-defs.svg#paper_clip_icon"></use>
+                    </svg>
+                    <label class="contacts-form__label">
+                        <textarea name="user-message" class="contacts-form__message"
+                            placeholder="Залишіть своє повідомлення"></textarea>
+                    </label>
+                </div>
+                <label>
+                    <p class="contacts-form__message-notice">
+                    *Прикріпіть зображення / креслення / STL / Obj / CAD-модель
+                    </p>
+                </label>
+                <button type="submit" class="contacts-form__btn">Відправити</button>
+            </form>
+        </div>
+    </div>
+</section>
