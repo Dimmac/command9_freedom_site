@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.hero-order-section {
+  // background-image: url(../../../images/Take-order-page/order-image-mobile.jpg);
+  border-radius: 15px;
+}
+
+.heroto-description:not(:last-child) {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
+}

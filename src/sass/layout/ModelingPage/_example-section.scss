@@ -1,0 +1,31 @@
+.example__title {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(16px, 700, 1.25);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+}
+
+.example__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.example__item {
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-basis: calc((100% - 2 * 10px) / 2);
+}
+
+.example__img {
+  height: 117px;
+}
+.wrapper-btn {
+  margin-top: 52px;
+  margin-bottom: 75px;
+}
