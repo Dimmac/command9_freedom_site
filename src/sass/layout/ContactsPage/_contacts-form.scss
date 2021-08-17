@@ -4,6 +4,8 @@
 }
 .contacts-form__title {
   margin-bottom: 28px;
+  color: var(--accent-color);
+  @include font-dec(700, 24px, 30px);
 }
 .contacts-form__label-wrapper {
   width: 100%;
@@ -32,7 +34,6 @@
 }
 .contacts-form__message-notice {
   margin-top: 4px;
-  margin-bottom: 24px;
   font-family: var(--main-font);
   margin-top: 16px;
   @include font-dec(400, 16px, 20px);
@@ -41,6 +42,7 @@
 .contacts-form__btn {
   @include button;
   width: 100%;
+  margin-top: 24px;
 }
 .paper_clip_wrapper {
   position: relative;
@@ -51,4 +53,20 @@
   right: 21px;
   width: 22px;
   height: 20px;
+}
+@include for-tablet {
+  .contacts-form {
+    padding-right: 114px;
+    padding-left: 114px;
+    margin-bottom: 76px;
+  }
+  .contacts-form__title {
+    text-align: center;
+  }
+  .contacts-form__btn {
+    width: 177px;
+    display: block;
+    margin-left: auto;
+    margin-top: 44px;
+  }
 }
