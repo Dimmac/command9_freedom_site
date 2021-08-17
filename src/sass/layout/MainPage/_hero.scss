@@ -53,12 +53,18 @@
   .anchor-svg {
     position: absolute;
     bottom: -15px;
-    left: 134px;
+    left: 72px;
   }
   .anchor-container {
     position: relative;
   }
   .anchor-svg {
-    display: none;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .anchor-svg {
+    left: 134px;
   }
 }
