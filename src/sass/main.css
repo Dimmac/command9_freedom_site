@@ -424,10 +424,6 @@ p {
   padding-bottom: 8px;
 }
 
-.hero {
-  margin-bottom: 52px;
-}
-
 .hero__title-container {
   max-width: 624px;
   margin: 0 auto;
@@ -497,10 +493,6 @@ p {
   .anchor-svg {
     display: none;
   }
-}
-
-.gallery {
-  margin-bottom: 52px;
 }
 
 .gallery__desc {
