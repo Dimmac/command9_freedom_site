@@ -4,7 +4,7 @@
 
 .gallery__desc{
     font-size: 16px;
-    line-height: 1.25;
+    line-height: 1.26;
     color: #487996;
     margin-top: 8px;
 }
@@ -27,9 +27,16 @@
     .gallery__item{
         flex-basis: calc((100% - 36px) / 2);
         margin-right: 18px;
-    }
-    .gallery__item:not(:nth-last-child(-n+2)){
         margin-bottom: 32px;
+       
     }
    
+}
+@media screen and (min-width:1444px){
+    .gallery__desc{
+        font-size: 18px;
+    }
+.gallery__item {
+    flex-basis: calc((100% - 52px) / 2);
+}
 }
