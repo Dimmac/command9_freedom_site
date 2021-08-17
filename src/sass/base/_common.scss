@@ -46,4 +46,43 @@ body {
   color: var(--primary-text-color);
   font-family: var(--main-font);
   font-weight: 300;
+
+  background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
+  background-size: 320px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../images/BG_pages/other_page/background_page-mobile@2x.png);
+      }
 }
+
+
+  @media screen and (min-width: 768px) {
+    body{
+      background-image: url(../images/BG_pages/other_page/background_page-tablet.png);
+      background-size: 768px;
+
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../images/BG_pages/other_page/background_page-tablet@2x.png);
+      }
+    }  
+  }
+
+  @media screen and (min-width: 1444px) {
+    body{
+      background-image: url(../images/BG_pages/other_page/background_page-desktop.png);
+      background-size: 1440px;
+
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: url(../images/BG_pages/other_page/background_page-desktop@2x.png);
+      }
+    }
+  }
+
