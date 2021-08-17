@@ -5,6 +5,11 @@
   align-items: center;
   margin: 0 auto;
   padding: 29px 0;
+
+  @include for-tablet {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
 }
 
 .logo {
@@ -19,6 +24,15 @@
     background-color: var(--primary-background-color);
     border-radius: 4px;
   }
+
+  @include for-tablet {
+    margin-right: 0;
+    flex-grow: 1;
+  }
+
+  @include for-desktop {
+    display: none;
+  }
 }
 
 // змінити стилі з допомогою jqury
@@ -32,12 +46,6 @@
   line-height: 18px;
   letter-spacing: 0.01em;
   color: #bdbdbd;
-
-  // user-select: none;
-
-  // &::-ms-expand {
-  //   display: none;
-  // }
 }
 
 // Приклад для тренування

@@ -1,5 +1,17 @@
 .navigation {
-  @include for-phone {
+  // @include for-phone {
+  //   display: none;
+  // }
+
+  // @include for-tablet {
+  //   display: none;
+  // }
+
+  @media screen and (min-width: 320px) {
     display: none;
+  }
+
+  @include for-desktop {
+    display: block;
   }
 }

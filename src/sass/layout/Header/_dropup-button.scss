@@ -13,6 +13,10 @@
 .dropup {
   position: relative;
   display: inline-block;
+
+  @include for-tablet {
+    order: 1;
+  }
 }
 
 .dropup-content {
@@ -26,6 +30,12 @@
 
   .dropup:hover & {
     display: block;
+  }
+
+  @include for-tablet {
+    display: block;
+    box-shadow: none;
+    position: static;
   }
 }
 
@@ -41,10 +51,20 @@
   &:focus {
     color: var(--accent-color);
   }
+
+  @include for-tablet {
+    margin: 0;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .tel__icon {
   @include for-phone {
     display: none;
   }
+}
+
+.dropup-content {
 }
