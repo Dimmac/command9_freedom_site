@@ -48,6 +48,10 @@
   cursor: pointer;
   transition-duration: 1000ms;
   transition-property: transform;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .select-options:focus {
@@ -85,6 +89,9 @@
   
   &::placeholder {
     color: #cdcdcd;
+  }
+  &:focus {
+    outline: none;
   }
 }
 
