@@ -1,3 +1,5 @@
+// Стилі хедера
+
 .header {
   // position: fixed;
   display: flex;
@@ -9,6 +11,18 @@
   @include for-tablet {
     justify-content: space-between;
     padding: 20px 0;
+  }
+
+  @include for-desktop {
+    margin-top: 40px;
+    padding: 0;
+  }
+}
+
+.header-container {
+  @include for-desktop {
+    padding-right: 80px;
+    padding-left: 80px;
   }
 }
 
@@ -33,19 +47,6 @@
   @include for-desktop {
     display: none;
   }
-}
-
-// змінити стилі з допомогою jqury
-.lang {
-  border: none;
-
-  font-family: Caviar Dreams;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.01em;
-  color: #bdbdbd;
 }
 
 // Приклад для тренування

@@ -1,0 +1,65 @@
+.mobile-menu {
+  background: chartreuse;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 100;
+
+  opacity: 1;
+  visibility: hidden;
+  pointer-events: none;
+
+  background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
+  background-size: 320px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/BG_pages/other_page/background_page-mobile@2x.png);
+  }
+}
+
+// @media screen and (min-width: 768px) {
+//   .mobile-menu {
+//     background-image: url(../images/BG_pages/main_page/background_main-tablet.png);
+//     background-size: 768px;
+
+//     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+//       background-image: url(../images/BG_pages/main_page/background_main-tablet@2x.png);
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 1444px) {
+//   display: none;
+// }
+
+.mobile-nav__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.mobile-nav__link {
+  text-align: center;
+  @include font(24px, 700, 1.25);
+  color: var(--accent-color);
+}
+
+.current {
+  border: 1px solid var(--accent-color);
+}
+
+.mobile-nav__link--sub {
+  @include font(24px, 500, 1.25);
+
+  &::before {
+    content: '';
+    margin-right: 11px;
+    background: #487996;
+    border-radius: 3px 0px;
+  }
+}
