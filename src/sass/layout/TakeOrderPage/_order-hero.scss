@@ -12,6 +12,14 @@
   background-position: 50% 20%;
 }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
+  (min-resolution: 192dpi) and (min-width: 320px),
+  (min-resolution: 2dppx) and (min-width: 320px) {
+    .hero-section {
+    background-image: url(../images/Take-order-page/order-image-mobile@2x.jpg);
+  }
+}
+
 .heroto-description {
   font-family: Cera Pro;
   font-size: 16px;
@@ -28,10 +36,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .hero-order-img{
-    width: auto;
-  } */
-
   .hero-order_container {
     background-image: url(../images/Take-order-page/order-image-tablet.jpg);
     background-repeat: no-repeat;
@@ -39,25 +43,30 @@
     background-position: 12% 100%;
   }
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero-section {
+    background-image: url(../images/Take-order-page/order-image-tablet@2x.jpg);
+  }
+}
+
+  .hero-order__wraper{
+    display: block;
+  }
+
   .hero-order_title {
     text-align: left;
     margin-bottom: 24px;
   }
 
-  /* .hero-order__wraper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
   .heroto-description:nth-child(-n + 1) {
     margin-top: 0px;
     margin-bottom: 16px;
   }
 
-  /* :not(:last-child) */
-
   .description-wraper {
-    margin-left: 268px;
+    padding-left: 268px;
   }
 }
 
@@ -66,8 +75,16 @@
     background-image: url(../images/Take-order-page/order-image-desktop.jpg);
     background-repeat: no-repeat;
     border-radius: 15px;
-    background-position: 20% 52%;
+    background-position: 20% 54%;
   }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
+  (min-resolution: 192dpi) and (min-width: 1444px),
+  (min-resolution: 2dppx) and (min-width: 1444px) {
+    .hero-section {
+    background-image: url(../images/Take-order-page/order-image-desktop@2x.jpg);
+  }
+}
 
   .heroto-description:nth-child(-n + 2) {
     font-size: 18px;
@@ -76,14 +93,22 @@
   }
 
   .description-wraper {
-    margin-left: 552px;
+    padding-left: 540px;
+    
   }
   .three-pict {
     background-image: url(../images/Take-order-page/three-image.jpg);
-    /* filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.25)); */
     background-repeat: no-repeat;
-    background-position: 72% 54%;
-    width: 590px;
+    background-position: 68% 54%;
+    width: 580px;
     height: 250px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
+  (min-resolution: 192dpi) and (min-width: 1444px),
+  (min-resolution: 2dppx) and (min-width: 1444px) {
+    .hero-section {
+    background-image: url(../images/Take-order-page/three-image@2x.jpg);
   }
 }
