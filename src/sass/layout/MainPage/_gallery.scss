@@ -16,6 +16,9 @@
 .gallery__link {
   text-decoration: none;
 }
+.gallery__content {
+  margin-bottom: 16px;
+}
 
 @media screen and (min-width: 768px) {
   .gallery__content {
@@ -23,6 +26,7 @@
     flex-wrap: wrap;
     padding: 0;
     margin-right: -18px;
+    margin-bottom: 32px;
   }
   .gallery__item {
     flex-basis: calc((100% - 36px) / 2);
@@ -31,6 +35,9 @@
   }
 }
 @media screen and (min-width: 1444px) {
+  .gallery {
+    padding-top: 100px;
+  }
   .gallery__desc {
     font-size: 18px;
   }
@@ -40,5 +47,8 @@
   .gallery {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .gallery__title {
+    margin-bottom: 52px;
   }
 }
