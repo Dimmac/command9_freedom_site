@@ -1658,53 +1658,6 @@ body {
   display: block;
 }
 
-  .wrrap {
-    margin-bottom: 57px;
-  }
-  .hero3d__text {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.25;
-    padding-right: 135px;
-    margin-bottom: 16px;
-  }
-  .jpg-scan {
-    background-image: url(../images/3D-Scanning-page/Scanning_photo1-tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 87%;
-    padding-bottom: 0px;
-  }
-  .transfer {
-    display: block;
-  }
-  .scanning3d__list {
-    margin-top: -12px;
-    margin-left: -12px;
-  }
-  .scanning3d__card {
-    width: 153px;
-    height: 210px;
-    margin-top: 12px;
-    margin-left: 12px;
-    padding-top: 17px;
-    overflow: hidden;
-    -ms-flex-preferred-size: calc((100% - 4 * 12px) / 4);
-        flex-basis: calc((100% - 4 * 12px) / 4);
-    -webkit-box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
-            box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
-    border-radius: 50px 0px;
-  }
-  .scanning3d__card-1::before {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    background-image: url(../images/3D-Scanning-page/Scan_process1-tablet.png);
-    background-color: transparent;
-    background-size: 108px 94px;
-    width: 108px;
-    height: 94px;
-  }
-
 .scanning3d__list {
   margin-top: -12px;
   margin-left: -12px;
@@ -2096,6 +2049,7 @@ body {
   .hero-order_title {
     text-align: left;
     margin-bottom: 24px;
+    padding-top: 24px;
   }
   .heroto-description:nth-child(-n + 1) {
     margin-top: 0px;
@@ -2111,7 +2065,7 @@ body {
     background-image: url(../images/Take-order-page/order-image-desktop.jpg);
     background-repeat: no-repeat;
     border-radius: 15px;
-    background-position: 20% 54%;
+    background-position: 20% 62%;
   }
 }
 
@@ -2128,7 +2082,7 @@ body {
     margin-top: 0px;
   }
   .description-wraper {
-    padding-left: 540px;
+    padding-left: 552px;
   }
   .three-pict {
     background-image: url(../images/Take-order-page/three-image.jpg);
@@ -2155,6 +2109,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-top: 52px;
+  padding-bottom: 52px;
 }
 
 .order-form__title {
@@ -2411,25 +2366,15 @@ body {
 }
 
 @media screen and (min-width: 1444px) {
-  .order-form-container {
+  .order-form-section {
     position: relative;
   }
-  .contacts-data {
+  .contacts-data__list {
     position: absolute;
     z-index: -1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     text-align: end;
-    left: 66%;
-    top: 520px;
-  }
-  .contacts-data__list {
-    /* display: block; */
+    left: 68%;
+    top: 116px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2456,6 +2401,24 @@ body {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1444px), (min-resolution: 192dpi) and (min-width: 1444px), (min-resolution: 2dppx) and (min-width: 1444px) {
   .hero-section {
     background-image: url(../images/Take-order-page/order-image5@2x.png);
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .contacts-data__list {
+    left: 66%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contacts-data__list {
+    left: 65%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .contacts-data__list {
+    left: 61%;
   }
 }
 
@@ -2719,25 +2682,15 @@ body {
 }
 
 @media screen and (min-width: 1444px) {
-  .order-form-container {
+  .order-form-section {
     position: relative;
   }
-  .contacts-data {
+  .contacts-data__list {
     position: absolute;
     z-index: -1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     text-align: end;
-    left: 66%;
-    top: 520px;
-  }
-  .contacts-data__list {
-    /* display: block; */
+    left: 68%;
+    top: 116px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2764,6 +2717,24 @@ body {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 1444px), (min-resolution: 192dpi) and (min-width: 1444px), (min-resolution: 2dppx) and (min-width: 1444px) {
   .hero-section {
     background-image: url(../images/Take-order-page/order-image5@2x.png);
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .contacts-data__list {
+    left: 66%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contacts-data__list {
+    left: 65%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .contacts-data__list {
+    left: 61%;
   }
 }
 
