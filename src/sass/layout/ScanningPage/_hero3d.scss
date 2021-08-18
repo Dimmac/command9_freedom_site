@@ -26,6 +26,7 @@
 }
 
 .jpg-scan{
+  
  background-image: url(../images/3D-Scanning-page/Scanning_photo1-mobile.jpg);
  
  background-repeat:no-repeat;
@@ -136,6 +137,9 @@ margin-bottom: 16px;
 
 
 @media screen and (min-width: 768px) {
+  .hero3d{
+    margin-top: 24px;
+  }
   .hero3d__title{
     font-family: var(--main-font);
   font-style: normal;
