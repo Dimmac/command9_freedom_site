@@ -10,8 +10,8 @@
   z-index: 100;
 
   opacity: 1;
-  // visibility: hidden;
-  // pointer-events: none;
+  visibility: hidden;
+  pointer-events: none;
 
   background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
   background-size: 320px;
@@ -52,12 +52,21 @@
   }
 }
 
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-nav {
+  text-align: center;
+}
+
 .mobile-nav__item:not(:last-child) {
   margin-bottom: 24px;
 }
 
 .mobile-nav__link {
-  text-align: center;
   @include font(24px, 700, 1.25);
   color: var(--accent-color);
 }
