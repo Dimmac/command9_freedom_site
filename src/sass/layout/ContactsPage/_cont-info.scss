@@ -1,4 +1,4 @@
-/* contacts info */
+/* contacts info Dima */
 
 .contacts-data__title {
   font-weight: 700;
@@ -40,18 +40,15 @@
 }
 
 @media screen and (min-width: 1444px) {
-  .cont-form-section {
+  .contacts-form__main {
     position: relative;
   }
   .cont-data__list {
     position: absolute;
     z-index: 0;
     text-align: start;
-    left: 50%;
-    top: 520px;
+    top: 57%;
     flex-direction: column;
-    margin-bottom: 0px;
-    width: 515px;
   }
   .cont-data__item:not(:last-child) {
     margin-bottom: 68px;

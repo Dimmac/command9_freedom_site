@@ -9,18 +9,16 @@
   }
 }
 
-// @media screen and (min-width: 768px) {
-//   .bg {
-//     background-image: url(../images/BG_pages/main-page/background_main-tablet.png);
-//     background-size: 768px;
+@media screen and (min-width: 768px) {
+  .bg {
+    background-image: url(../images/BG_pages/main-page/background_main-tablet.png);
+    background-size: 768px;
 
-//     @media (min-device-pixel-ratio: 2),
-//     (min-resolution: 192dpi),
-//     (min-resolution: 2dppx) {
-//       background-image: url(../images/BG_pages/main-page/background_main-tablet@2x.png);
-//     }
-//   }
-// }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/BG_pages/main-page/background_main-tablet@2x.png);
+    }
+  }
+}
 
 @media screen and (min-width: 1444px) {
   .bg {

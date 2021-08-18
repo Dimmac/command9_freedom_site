@@ -35,12 +35,16 @@
   }
 }
 @include for-desktop {
+  .hero {
+    padding-top: 24px;
+  }
   .description__foto {
     min-width: 515px;
     min-height: 315px;
     margin-right: 32px;
   }
   .description__text-item {
+    @include font-dec(300, 18px, 23px);
   }
   .description__smile {
     width: 49px;
