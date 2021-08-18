@@ -2,22 +2,60 @@
 <div class="mobile-menu">
         <div class="container-mobile">
             
-            <button type="button" class="burger-btn burger-btn--close">
-                                <svg class="burger-btn__icon" width="45" height="45">
-                                    <use href="./images/SVG-icon/svg_sprite-defs.svg#close_icon"></use>
-                                </svg>
-                            </button>
-            <ul>
-                <li><a href="">ГОЛОВНА</a></li>
-                <li><a href="">ПОСЛУГИ</a>
+            <!-- <a href="./index.html" class="logo link">
+                <img class="logo__img" src="./images/Logo-image/3DFREEDOM192x48-desktop.png" alt="Логотип" srcset="./images/Logo-image/3DFREEDOM101x25-mobile.png 101w,
+                                    ./images/Logo-image/3DFREEDOM125x31-tablet.png 125w,
+                                    ./images/Logo-image/3DFREEDOM192x48-desktop.png 192w" sizes="(min-width: 1444px) 192px,
+                                    (min-width: 768px) 125px,
+                                    (min-width: 320px) 101px,
+                                    192px" />
+            </a>
+
+            <button type="button" class="burger-btn burger-btn--close btn-svg">
+                <svg class="burger-btn__icon" width="45" height="45">
+                    <use href="./images/SVG-icon/svg_sprite-defs.svg#close_icon"></use>
+                </svg>
+            </button>
+
+            <div class="dropup">
+                <button type="button" class="tel-btn btn-svg">
+                    <svg class="btn-tel__icon" width="24" height="24">
+                        <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+                    </svg>
+                </button>
+                <div class="dropup-content">
+                    <a href="tel:+380936432288" class="dropup-content__link link">
+                        <svg class="tel__icon" width="14" height="14">
+                            <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+                        </svg>
+                        +38 (093) 643 22 88
+                    </a>
+                    <a href="tel:+380503454423" class="dropup-content__link link">
+                        <svg class="tel__icon" width="14" height="14">
+                            <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+                        </svg>
+                        +38 (050) 345 44 23
+                    </a>
+                </div>
+            </div>
+
+            <select name="lang" id="" class="lang">
+                <option value="ENG">ENG</option>
+                <option value="UKR">UKR</option>
+                <option value="RUS">RUS</option>
+            </select> -->
+
+            <ul class="mobile-nav">
+                <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link link current">ГОЛОВНА</a></li>
+                <li class="mobile-nav__item"><a href="#" class="mobile-nav__link link">ПОСЛУГИ</a>
                     <ul>
-                        <li><a href="">3D Моделювання</a></li>
-                        <li><a href="">3D Сканування</a></li>
-                        <li><a href="">3D Друк</a></li>
+                        <li class="mobile-nav__item"><a href="./modeling.html" class="mobile-nav__link mobile-nav__link--sub link">3D Моделювання</a></li>
+                        <li class="mobile-nav__item"><a href="./scanning.html" class="mobile-nav__link mobile-nav__link--sub link">3D Сканування</a></li>
+                        <li class="mobile-nav__item"><a href="./printing.html" class="mobile-nav__link mobile-nav__link--sub link">3D Друк</a></li>
                     </ul>
                 </li>
-                <li><a href="">ЗАМОВИТИ</a></li>
-                <li><a href="">КОНТАКТИ</a></li>
+                <li class="mobile-nav__item"><a href="./takeorder.html" class="mobile-nav__link link">ЗАМОВИТИ</a></li>
+                <li class="mobile-nav__item"><a href="./contacts.html" class="mobile-nav__link link">КОНТАКТИ</a></li>
             </ul>
         </div>
     </div>
