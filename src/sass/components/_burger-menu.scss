@@ -11,8 +11,8 @@
   z-index: 100;
 
   opacity: 1;
-  visibility: hidden;
-  pointer-events: none;
+  //   visibility: hidden;
+  //   pointer-events: none;
 
   background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
   background-size: 320px;
@@ -33,6 +33,10 @@
       background-image: url(../images/BG_pages/main_page/background_main-tablet@2x.png);
     }
   }
+}
+
+@media screen and (min-width: 1444px) {
+  display: none;
 }
 
 .mobile-nav__item:not(:last-child) {
