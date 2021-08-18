@@ -1,3 +1,4 @@
+// Dropup меню
 .tel-btn {
   margin-right: 21px;
 
@@ -37,6 +38,12 @@
     box-shadow: none;
     position: static;
   }
+
+  @include for-desktop {
+    position: static;
+    min-width: 171px;
+    box-shadow: none;
+  }
 }
 
 .dropup-content__link {
@@ -66,5 +73,3 @@
   }
 }
 
-.dropup-content {
-}
