@@ -58,7 +58,6 @@
   .contacts-form {
     padding-right: 114px;
     padding-left: 114px;
-    margin-bottom: 76px;
   }
   .contacts-form__title {
     text-align: center;
@@ -71,8 +70,16 @@
   }
 }
 @include for-desktop {
+  .contacts-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .contacts-form__main {
-    // position: absolute;
     width: 516px;
+    margin-left: auto;
+  }
+  .contacts-form {
+    padding-left: 189px;
+    padding-right: 189px;
   }
 }
