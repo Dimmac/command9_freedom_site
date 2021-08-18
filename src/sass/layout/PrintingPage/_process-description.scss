@@ -1,0 +1,107 @@
+// Прописав стилі Тарас Роботецький
+// Мобільна версія!!!
+.process-description {
+  padding-top: 52px;
+  padding-bottom: 76px;
+}
+
+.process-description__item:not(:last-child) {
+  margin-bottom: 52px;
+}
+// Контейнер з картинкою process-description__container-image
+
+.process-description__container-image {
+  margin-bottom: 16px;
+}
+.process-description__img {
+  max-width: inherit;
+  filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.15));
+  border-radius: 50px 0px;
+}
+// Текстовий контейнер process-description__container-text
+
+.process-description_text {
+  margin-bottom: 16px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.process-description_text--accent {
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.process-description_text--distance {
+  margin-bottom: 25px;
+}
+
+// Кнопка Замовлення process-description_container
+
+.process-description_container {
+  padding: 16px 32px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
+    5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+  border-radius: 30.5px;
+  border: none;
+
+  background: var(--secondary-background-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-background-color);
+  }
+}
+
+// Планшетна версія!!!
+@media screen and(min-width:768px) {
+  .process-description__item {
+    display: flex;
+  }
+  .process-description__item:not(:last-child) {
+    margin-bottom: 76px;
+  }
+  .process-description__container-image {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+  .process-description_text--distance {
+    margin-bottom: 52px;
+  }
+  .process-description_container {
+    display: inline-block;
+    text-align: start;
+  }
+}
+
+// Десктопна версія!!!
+@media screen and(min-width:1444px) {
+  .process-description {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .process-description__container-image {
+    margin-right: 78px;
+  }
+  .process-description_text {
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 1.28;
+  }
+  .process-description_text--distance {
+    margin-bottom: 52px;
+  }
+}

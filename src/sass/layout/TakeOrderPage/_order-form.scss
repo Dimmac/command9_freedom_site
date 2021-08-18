@@ -27,13 +27,13 @@
   &:focus {
     outline: none;
   }
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+  }
 }
 
-.order-form__input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: var(--primary-text-color);
-}
 
 .select-options {
   width: 100%;
@@ -51,11 +51,8 @@
 
   &:focus {
     outline: none;
+    background: url(../images/SVG-icon/icons/arrow_icon_focus.svg) no-repeat right;
   }
-}
-
-.select-options:focus {
-  background: url(../images/SVG-icon/icons/arrow_icon_focus.svg) no-repeat right;
 }
 
 /* .select-options::after{
@@ -106,11 +103,10 @@
   height: 20px;
   left: 85%;
   top: 80%;
+  cursor: pointer;
 }
 
 .order-form_button {
-  // width: 280px;
-  // height: 56px;
   align-self: center;
   
 }
