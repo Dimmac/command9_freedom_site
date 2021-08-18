@@ -9,18 +9,21 @@
   overflow-y: scroll;
   z-index: 100;
 
-  opacity: 1;
+  opacity: 0;
   visibility: hidden;
   pointer-events: none;
 
-  background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
-  background-size: 320px;
-  background-repeat: no-repeat;
-  background-position-x: 50%;
+  background-color: var(--primary-white-color);
 
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../images/BG_pages/other_page/background_page-mobile@2x.png);
-  }
+  // background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
+  // background-size: 320px;
+  // background-repeat: no-repeat;
+  // background-position-x: 50%;
+  // background-color: var(--primary-white-color);
+
+  // @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  //   background-image: url(../images/BG_pages/other_page/background_page-mobile@2x.png);
+  // }
 }
 
 // @media screen and (min-width: 768px) {
@@ -34,9 +37,11 @@
 //   }
 // }
 
-// @media screen and (min-width: 1444px) {
-//   display: none;
-// }
+@media screen and (min-width: 1444px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 
 .header-mobile {
   // position: fixed;
@@ -67,21 +72,42 @@
 }
 
 .mobile-nav__link {
+  position: relative;
   @include font(24px, 700, 1.25);
   color: var(--accent-color);
 }
 
 .current {
-  border: 1px solid var(--accent-color);
+  //   @include font(24px, 500, 1.25);
+
+  // font-family: Cera Pro;
+  // font-style: normal;
+  // font-weight: bold;
+  // font-size: 24px;
+  // line-height: 30px;
+  // text-align: center;
+
+  color: #fff;
+  text-shadow: 0px 0px 3px #487996;
+  mix-blend-mode: multiply;
+  // border: 1px solid var(--accent-color);
+}
+
+.mobile-nav__sub {
+  margin-top: 24px;
 }
 
 .mobile-nav__link--sub {
   @include font(24px, 500, 1.25);
+}
 
-  &::before {
-    content: '';
-    margin-right: 11px;
-    background: #487996;
-    border-radius: 3px 0px;
-  }
+.mobile-nav__link--sub::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin-right: 11px;
+  background: #487996;
+  border-radius: 3px 0px;
 }
