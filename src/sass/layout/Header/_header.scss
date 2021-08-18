@@ -1,0 +1,58 @@
+// Стилі хедера
+
+.header {
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 29px 0;
+
+  @include for-tablet {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  @include for-desktop {
+    margin-top: 40px;
+    padding: 0;
+  }
+}
+
+.header-container {
+  @include for-desktop {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+.logo {
+  margin-right: 23px;
+}
+
+.burger-btn {
+  margin-right: 46px;
+
+  &:hover,
+  &:focus {
+    fill: #008cef;
+    // background-color: var(--primary-background-color);
+    // border-radius: 4px;
+  }
+
+  @include for-tablet {
+    margin-right: 0;
+    flex-grow: 1;
+  }
+
+  @include for-desktop {
+    display: none;
+  }
+}
+
+// Приклад для тренування
+
+// p {
+//   font-family: var(--secondary-font);
+//   @include font(25px, 300, 1.5);
+// }

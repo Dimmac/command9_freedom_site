@@ -1,0 +1,119 @@
+.footer {
+  background-color: var(--secondary-background-color);
+  box-shadow: 5px 2px 5px 8px rgba(72, 121, 150, 0.1);
+}
+.footer-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 1444px) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
+}
+
+.mobile-footer {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1444px) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+.margin-footer {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  @media screen and (min-width: 1444px) {
+    padding-right: 136px;
+  }
+}
+.footer-menu {
+  @media screen and (min-width: 1444px) {
+    padding-right: 87px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.footer-list {
+  @media screen and (min-width: 1444px) {
+    padding-right: 145px;
+  }
+}
+
+.footer-menu,
+.footer-list,
+.footer-contacts__list {
+  list-style: none;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    padding-bottom: 24px;
+  }
+}
+.footer-contacts__list {
+  @media screen and (min-width: 768px) {
+    text-align: end;
+  }
+  @media screen and (min-width: 1444px) {
+    text-align: start;
+  }
+}
+.menu__studio {
+  font-family: var(--main-font);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  color: #2b2b2b;
+  padding-bottom: 8px;
+}
+.menu-contacts {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #487996;
+  text-decoration: none;
+
+  padding-bottom: 8px;
+}
+.footer-contacts__link {
+  padding-bottom: 16px;
+}
+.footer-contacts__link-name {
+  padding-bottom: 8px;
+}

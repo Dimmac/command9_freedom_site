@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3Д Моделювання</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="../css/fonts.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./sass/main.scss" />
+</head>
+
+<body>
+  <!-- header -->
+  <include src="./partials/BaseComponents/header.html"></include>
+  <main>
+    <!-- order hero -->
+    <include src="./partials/TakeOrderPage/order-hero.html"></include>
+    <!-- order form -->
+    <include src="./partials/TakeOrderPage/order-form.html"></include>
+    <!-- contacts info -->
+    <include src="./partials/TakeOrderPage/contacts-info.html"></include>
+  </main>
+  <!-- footer -->
+  <include src="./partials/BaseComponents/footer.html"></include>
+  <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+  <script src="./takeorder.js"></script>
+  <script src="./js/add-file.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+.hero3d__title {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(24px, 700, 1.25);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+}
+
+.hero3d__text {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(16px, 300, 1.25);
+
+  color: var(--primary-text-color);
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.jpg-scan {
+  background-image: url(../images/3D-Scanning-page/Scanning_photo1-mobile.jpg);
+
+  background-repeat: no-repeat;
+
+  padding-bottom: 232px;
+  background-position: 20% 100%;
+  margin-bottom: 16px;
+}
+
+.scanning3d__title {
+  font-family: var(--main-font);
+  font-style: normal;
+  margin-bottom: 19px;
+
+  @include font(18px, 700, 1.27);
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+}
+.scanning3d__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.scanning3d__card {
+  width: 133px;
+  height: 182px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 14px;
+  overflow: hidden;
+  flex-basis: calc((100% - 2 * 15px) / 2);
+
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #ffffff;
+  border-radius: 50px 0px;
+
+  &::before {
+    content: url(../images/3D-Scanning-page/Scan_process1-mobile.jpg);
+
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.card3d__title {
+  padding-top: 18px;
+}
+
+.button-scann {
+  display: block;
+  margin-top: 52px;
+  margin-bottom: 76px;
+}
+
+.hero3d__title {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(24px, 700, 1.25);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+}
+
+.hero3d__text {
+  font-family: var(--main-font);
+  font-style: normal;
+  margin-bottom: 16px;
+  @include font(16px, 300, 1.25);
+
+  color: var(--primary-text-color);
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.jpg-scan {
+  background-image: url(../images/3D-Scanning-page/Scanning_photo1-mobile.jpg);
+
+  background-repeat: no-repeat;
+
+  padding-bottom: 192px;
+  background-position: 20% 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero3d {
+    margin-top: 24px;
+  }
+  .hero3d__title {
+    font-family: var(--main-font);
+    font-style: normal;
+
+    @include font(36px, 700, 1.25);
+    text-transform: uppercase;
+  }
+  .wrrap {
+    margin-bottom: 57px;
+  }
+  .hero3d__text {
+    @include font(16px, 300, 1.25);
+    padding-right: 135px;
+
+    margin-bottom: 16px;
+  }
+
+  .jpg-scan {
+    background-image: url(../images/3D-Scanning-page/Scanning_photo1-tablet.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: 100% 87%;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .hero3d__title {
+    @include font(48px, 700, 1.28);
+  }
+  .hero3d__text {
+    margin-bottom: 0;
+    @include font(18px, 300, 1.28);
+    color: var(--primary-text-color);
+    padding-right: 0;
+  }
+
+  .wrrap {
+    display: flex;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  .box-left {
+    width: 515px;
+    height: 270px;
+    margin-right: 32px;
+  }
+  .box-right {
+    width: 515px;
+    height: 270px;
+  }
+
+  .jpg-scan {
+    background-image: url(../images/3D-Scanning-page/Scanning_photo1-desktop.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: 80% 140%;
+    padding-bottom: 0px;
+  }
+}

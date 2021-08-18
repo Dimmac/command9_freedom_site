@@ -1,4 +1,21 @@
+/*-Стилі заголовка для mobile-версії-*/
+
 .title {
-  @include font(48px, 700, 1.25);
+  @include font(24px, 700, 1.25);
   color: var(--accent-color);
+}
+/*-Стилі заголовка для tablet-версії-*/
+
+@media screen and (min-width: 768px) {
+  .title {
+    @include font(36px, 700, 1.25);
+  }
+}
+
+/*-Стилі заголовка для desktop-версії-*/
+
+@media screen and (min-width: 1444px) {
+  .title {
+    @include font(48px, 700, 1.25);
+  }
 }

@@ -1,0 +1,67 @@
+<!-- order form -->
+<section class="order-form-section">
+  <div class="container order-form-container">
+    <div class="order-form">
+      <form action="#" class="order-form__main">
+        <h2 class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</h2>
+        <label class="order-form__label">
+          <span class="order-form__label-wrapper">
+            <input type="text" class="order-form__input" name="user-name" placeholder="Ім’я" minlength="2"
+              pattern="[a-zA-Zа-яёА-ЯЁ]+" title="Ім'я повинно містити символи кирилиці або латиниці" required />
+          </span>
+        </label>
+        <label class="order-form__label">
+          <span class="order-form__label-wrapper">
+            <input type="email" class="order-form__input" name="user-email" placeholder="Email"
+              pattern="^[a-zA-Z0-9]+$+@[a-z0-9.-]=\.[a-z]{2,}$" title="test@mail.com" required />
+          </span>
+        </label>                    
+        <span class="order-form__select-wrapper">
+          <select name="plastic" class="select-options">                
+            <option label="Види пластика" >Види пластика</option>                              
+            <option class="order-form__options" value="300-micron">300 мікрон</option>
+            <option class="order-form__options" value="200-micron">200 мікрон</option>
+            <option class="order-form__options" value="100-micron">100 мікрон</option>
+            <option class="order-form__options" value="select-help">Труднощі у виборі - ми допоможемо</option>
+          </select>
+        </span>
+        <span class="order-form__select-wrapper">
+          <select name="print-quality" class="select-options">                
+            <option label="Якіть друку" >Якість друку</option>
+            <option value="hight">Висока</option>
+            <option value="medium">Середня</option>
+            <option value="low">Низька</option>
+            <option value="select-help">Труднощі у виборі - ми допоможемо</option>              
+          </select>
+        </span>        
+        <span class="order-form__select-wrapper">
+          <select name="color" class="select-options">               
+            <option label="Колір" >Колір</option>
+            <option value="white">Білий</option>
+            <option value="yellow">Жовтий</option>
+            <option value="red">Червоний</option>
+            <option value="blue">Синій</option>
+            <option value="black">Чорний</option>
+            <option value="select-help">Труднощі у виборі - ми допоможемо</option>              
+          </select>
+        </span>              
+        <label class="order-form__label">
+          Повідомлення
+          <span class="file-upload">
+            <input type="file" id="file-uploader" class="visually-hidden" >
+            <svg class="paper-clip-icon">
+              <use xlink:href="./images/SVG-icon/svg_sprite-defs.svg#paper_clip_icon"></use>
+          </svg>
+            <!-- <p id="feedback"></p> -->
+        </span>
+          <textarea name="user-message" class="order-form__message"
+            placeholder="Залишіть своє повідомлення"></textarea>
+        </label>
+        <label class="order-form__message-notice">
+          *Прикріпіть зображення / креслення / STL / Obj / CAD-модель
+        </label>
+        <button type="submit" class="button order-form_button">Відправити</button>
+      </form>          
+    </div>
+  </div>
+</section>

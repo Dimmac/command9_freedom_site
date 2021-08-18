@@ -1,0 +1,32 @@
+.bg {
+  background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
+  background-size: 320px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/BG_pages/other_page/background_page-mobile@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    background-image: url(../images/BG_pages/main-page/background_main-tablet.png);
+    background-size: 768px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/BG_pages/main-page/background_main-tablet@2x.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .bg {
+    background-image: url(../images/BG_pages/main-page/background_main-desktop.png);
+    background-size: 1440px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(../images/BG_pages/main-page/background_main-desktop@2x.png);
+    }
+  }
+}

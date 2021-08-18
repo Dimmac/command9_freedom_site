@@ -1,0 +1,78 @@
+.example {
+  padding-bottom: 76px;
+
+  @media screen and(min-width:1444px) {
+    padding-bottom: 100px;
+  }
+}
+
+.example__title {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(16px, 700, 1.25);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  padding-right: 20px;
+
+  color: var(--accent-color);
+
+  @media screen and (min-width: 768px) {
+    @include font(24px, 700, 1.25);
+    margin-bottom: 24px;
+    padding-right: 170px;
+  }
+
+  @media screen and(min-width:1444px) {
+    @include font(36px, 700, 1.25);
+  }
+}
+
+.example__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.example__item {
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-basis: calc((100% - 2 * 10px) / 2);
+
+  @media screen and(min-width:768px) {
+    flex-basis: calc((100% - 4 * 10px) / 4);
+  }
+}
+.example__item-one-radius {
+  border-radius: 0px 0px 0px 50px;
+  overflow: hidden;
+}
+.example__item-two-radius {
+  border-radius: 50px 0px;
+  overflow: hidden;
+}
+
+.example__img {
+  height: 117px;
+
+  @media screen and(min-width:768px) {
+    height: 134px;
+  }
+
+  @media screen and(min-width:1444px) {
+    height: 219px;
+  }
+}
+.button-mod {
+  display: block;
+  margin-top: 52px;
+  max-width: 280px;
+  @media screen and(min-width:768px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and(min-width:1444px) {
+    margin-top: 100px;
+  }
+}

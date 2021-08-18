@@ -1,0 +1,92 @@
+/* contacts info */
+
+.contacts-data__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.contacts-data__list {
+  padding-bottom: 76px;
+}
+.contacts-data__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.contacts-data__description {
+  font-family: Cera Pro;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+  margin-top: 8px;
+}
+.days {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts-data__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts-data__description {
+    text-align: right;
+  }
+  .contacts-data__title {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .order-form-section {
+    position: relative;
+  }
+  .contacts-data__list{
+    position: absolute;
+    z-index: -1;
+    text-align: end;
+    left: 69%;
+    top: 636px;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .contacts-data__title {
+    font-size: 36px;
+  }
+  .contacts-data__description {
+    font-size: 18px;
+  }
+  .mosaic-img {
+    background-image: url(../images/Take-order-page/order-image5.png);    
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    width: 570px;
+    height: 430px;
+    position: absolute;
+    right: -73px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
+  (min-resolution: 192dpi) and (min-width: 1444px),
+  (min-resolution: 2dppx) and (min-width: 1444px) {
+    .hero-section {
+    background-image: url(../images/Take-order-page/order-image5@2x.png);
+  }
+}
+@media screen and (min-width: 1700px){
+  .contacts-data__list{
+    left: 66%;
+  }
+}
+@media screen and (min-width: 1920px){
+  .contacts-data__list{
+    left: 65%;
+  }
+}
+@media screen and (min-width: 2560px){
+  .contacts-data__list{
+    left: 61%;
+  }
+}

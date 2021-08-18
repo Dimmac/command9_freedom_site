@@ -1,0 +1,75 @@
+// Dropup меню
+.tel-btn {
+  margin-right: 21px;
+
+  @include for-tablet {
+    display: none;
+  }
+
+  @include for-desktop {
+    display: none;
+  }
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+
+  @include for-tablet {
+    order: 1;
+  }
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  left: -100%;
+  min-width: 165px;
+  background-color: var(--primary-white-color);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+
+  .dropup:hover & {
+    display: block;
+  }
+
+  @include for-tablet {
+    display: block;
+    box-shadow: none;
+    position: static;
+  }
+
+  @include for-desktop {
+    position: static;
+    min-width: 171px;
+    box-shadow: none;
+  }
+}
+
+.dropup-content__link {
+  display: block;
+  padding: 0 8px;
+  margin: 16px 0;
+
+  @include font(16px, 400, 1.25);
+  letter-spacing: 0.01em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  @include for-tablet {
+    margin: 0;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.tel__icon {
+  @include for-phone {
+    display: none;
+  }
+}
+

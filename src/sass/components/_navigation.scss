@@ -1,0 +1,82 @@
+// Навігація по сайту
+
+.navigation {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+
+  @include for-desktop {
+    display: block;
+  }
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list__link {
+  @include font(18px, 400, 1.17);
+
+  font-family: var(--secondary-font);
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 54px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -25px;
+  top: 20px;
+  width: 150px;
+  padding-top: 8px;
+  background: var(--primary-white-color);
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 0 0 50px 50px;
+  text-align: center;
+
+  .dropdown:hover & {
+    display: block;
+  }
+}
+
+.dropdown-content__link {
+  @include font(16px, 400, 1.19);
+  font-family: var(--secondary-font);
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.dropdown-content__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+.dropdown-item:hover .navigation__icon {
+  transform: rotate(180deg);
+  fill: #008cef;
+}

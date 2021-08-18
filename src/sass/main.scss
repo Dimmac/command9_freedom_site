@@ -5,13 +5,59 @@
 // UTILS
 @import './utils/variables';
 @import './utils/mixin';
+@import './utils/mixin-font-decimal';
 @import './utils/visually-hidden';
 
 // BASE
 @import './base/common';
 @import './base/container';
+
+//COMPONENTS
+@import './components/burger-menu';
+@import './components/navigation';
 @import './components/title';
 @import './components/button';
+@import './components/backdrop';
+
+// LAYOUT
+@import './layout/Header/header';
+@import './layout/Header/dropup-button';
+@import './layout/Header/lang';
+
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/Footer/footer';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/MainPage/mainpage';
+@import './layout/MainPage/hero';
+@import './layout/MainPage/gallery';
+@import './layout/MainPage/bg-main-page';
+@import './layout/MainPage/morefoto';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/ModelingPage/hero-modeling';
+@import './layout/ModelingPage/creation-section';
+@import './layout/ModelingPage/example-section';
+
+@import './layout/ScanningPage/hero3d';
+@import './layout/ScanningPage/scanning3d';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+
+@import './layout/PrintingPage/we-create';
+@import './layout/PrintingPage/process-description';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/TakeOrderPage/order-hero';
+@import './layout/TakeOrderPage/order-form';
+@import './layout/TakeOrderPage/contacts-info';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+
+@import './layout/ContactsPage/contacts-hero';
+@import './layout/ContactsPage/contacts-form';
+@import './layout/ContactsPage/cont-info';
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
 
 // Стили для файла с примером HTML-фрагмента
 /* @import './example'; */

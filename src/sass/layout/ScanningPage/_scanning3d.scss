@@ -1,0 +1,437 @@
+
+.card3d__title{
+     font-family: var(--main-font);
+  font-style: normal;
+padding-left: 10px;
+padding-right: 10px;
+
+  @include font(14px, normal, 1.28);
+  
+  text-align: center;
+
+  color: var(--accent-color);
+}
+.scanning3d__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-left: -15px;
+  
+}
+.button-scann{
+  width: 277px;
+  margin: 0 auto;
+  margin-top: 52px;
+  margin-bottom: 76px;
+}
+
+.button-scann{
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
+    5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+  border-radius: 30.5px;
+  border: none;
+
+  background: var(--secondary-background-color);
+  font-family: inherit;
+  @include font(16px, 700, 1.5);
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: var(--accent-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.button {
+  @include button;
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-background-color);
+  }
+}
+
+.transfer{
+  display: block;;
+}
+.scanning3d__title{
+  font-family: var(--main-font);
+  font-style: normal;
+  margin-bottom: 19px;
+  margin-top: 15px;
+   @include font(18px, bold, 1.27);
+  
+  color: var(--accent-color);
+}
+.scanning3d__card{
+    width: 133px;
+    height: 182px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 19px;
+ overflow: hidden;
+  flex-basis: calc((100% - 2 * 15px) / 2);
+
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
+border-radius: 50px 0px;
+ 
+}
+
+
+
+.scanning3d__card-1{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process1-mobile.png);
+    background-color: transparent;
+     background-size: 94px 82px;
+      width: 94px;
+        height: 82px;
+    
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+            (min-resolution: 192dpi) and (min-width: 280px),
+            (min-resolution: 2dppx) and (min-width: 280px) {
+            background-image: url(../images/3D-Scanning-page/Scan_process1-mobile@2x.png);
+            }
+}
+}
+
+.scanning3d__card-2{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process2-mobile.png);
+    background-color: transparent;
+     background-size: 94px 82px;
+      width: 94px;
+        height: 82px;
+  
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+            (min-resolution: 192dpi) and (min-width: 280px),
+            (min-resolution: 2dppx) and (min-width: 280px) {
+            background-image: url(../images/3D-Scanning-page/Scan_process2-mobile@2x.png);
+            }
+}
+}
+.scanning3d__card-3{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process3-mobile.png);
+    background-color: transparent;
+     background-size: 94px 82px;
+      width: 94px;
+        height: 82px;
+  
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+            (min-resolution: 192dpi) and (min-width: 280px),
+            (min-resolution: 2dppx) and (min-width: 280px) {
+            background-image: url(../images/3D-Scanning-page/Scan_process3-mobile@2x.png);
+            }
+}
+}
+
+.scanning3d__card-4{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process4-mobile.png);
+    background-color: transparent;
+     background-size: 94px 82px;
+      width: 94px;
+        height: 82px;
+  
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+            (min-resolution: 192dpi) and (min-width: 280px),
+            (min-resolution: 2dppx) and (min-width: 280px) {
+            background-image: url(../images/3D-Scanning-page/Scan_process4-mobile@2x.png);
+            }
+}
+}
+
+.card3d__title{
+    padding-top: 18px;
+}
+
+
+@media screen and (min-width: 768px) {
+  
+  .card3d__title{
+     font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(14px, normal, 1.29);
+  
+  margin-bottom: 18px;
+  text-align: center;
+padding-left: 18px;
+padding-right: 18px;
+  color: var(--accent-color);
+}
+  .scanning3d__title{
+    
+  margin-top: 52px;
+  margin-bottom: 24px;
+
+
+
+  @include font(24px, 700, 1.25);
+  text-transform: uppercase;
+
+}
+.transfer{
+  display: block;;
+}
+
+.scanning3d__list {
+  
+  margin-top: -12px;
+  margin-left: -12px;
+  
+  
+}
+
+.scanning3d__card{
+    width: 153px;
+    height: 210px;
+  margin-top: 12px;
+  margin-left: 12px;
+  padding-top: 17px;
+ overflow: hidden;
+  flex-basis: calc((100% - 4 * 12px) / 4);
+
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
+border-radius: 50px 0px;
+
+}
+.scanning3d__card-1{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process1-tablet.png);
+    background-color: transparent;
+     background-size: 108px 94px;
+      width: 108px;
+        height: 94px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+        (min-resolution: 192dpi) and (min-width: 768px),
+        (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process1-tablet@2x.png);
+    }
+  }
+}
+
+.scanning3d__card-2{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process2-tablet.png);
+    background-color: transparent;
+     background-size: 108px 94px;
+      width: 108px;
+        height: 94px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+        (min-resolution: 192dpi) and (min-width: 768px),
+        (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process2-tablet@2x.png);
+    }
+  }
+}
+
+.scanning3d__card-3{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process3-desktop.png);
+    background-color: transparent;
+     background-size: 108px 94px;
+      width: 108px;
+        height: 94px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+        (min-resolution: 192dpi) and (min-width: 768px),
+        (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process3-desktop@2x.png);
+    }
+  }
+}
+.scanning3d__card-4{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process4-desktop.png);
+    background-color: transparent;
+     background-size: 108px 94px;
+      width: 108px;
+        height: 94px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+        (min-resolution: 192dpi) and (min-width: 768px),
+        (min-resolution: 2dppx) and (min-width: 768px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process4-desktop@2x.png);
+    }
+  }
+}
+}
+
+
+@media screen and (min-width: 1440px) {
+
+.button-scann{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+  .card3d__title{
+     font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(18px, 300, 1.28);
+  padding-left: 31px;
+  padding-right: 31px;
+  margin-bottom: 22px;
+  text-align: center;
+
+  color: var(--accent-color);
+}
+
+  .scanning3d__title{
+    position: absolute;
+    top: -18%;
+    margin: 0;
+    @include font(36px, 700, 1.25);
+  }
+.scanning3d__list {
+  
+  margin-top: -21px;
+  margin-left: -21px;
+  
+  
+}
+.wrrap{
+  margin-bottom: 97px;
+}
+.scanning3d{
+  position: relative;
+}
+
+
+.scanning3d__card-1{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process1-desktop.png);
+    background-color: transparent;
+     background-size: 177px 154px;
+      width: 177px;
+        height: 154px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (min-resolution: 192dpi) and (min-width: 1440px),
+        (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process1-desktop@2x.png);
+    }
+  }
+}
+.scanning3d__card-2{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process2-desktop.png);
+    background-color: transparent;
+     background-size: 177px 154px;
+      width: 177px;
+        height: 154px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (min-resolution: 192dpi) and (min-width: 1440px),
+        (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process2-desktop@2x.png);
+    }
+  }
+}
+
+.scanning3d__card-3{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process3-desktop.png);
+    background-color: transparent;
+     background-size: 177px 154px;
+      width: 177px;
+        height: 154px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (min-resolution: 192dpi) and (min-width: 1440px),
+        (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process3-desktop@2x.png);
+    }
+  }
+}
+
+.scanning3d__card-4{
+  &::before{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process4-desktop.png);
+    background-color: transparent;
+     background-size: 177px 154px;
+      width: 177px;
+        height: 154px;
+      
+       @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+        (min-resolution: 192dpi) and (min-width: 1440px),
+        (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/3D-Scanning-page/Scan_process4-desktop@2x.png);
+    }
+  }
+}
+.scanning3d__card{
+    width: 250px;
+    height: 298px;
+  margin-top: 21px;
+  margin-left: 21px;
+  padding-top: 55px;
+ overflow: hidden;
+  flex-basis: calc((100% - 4 * 21px) / 4);
+
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
+border-radius: 50px 0px;
+
+  
+}
+}
+

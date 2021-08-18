@@ -1,0 +1,85 @@
+.creation {
+  padding-bottom: 52px;
+
+  @media screen and(min-width:1444px) {
+    padding-bottom: 100px;
+  }
+}
+.creation-container {
+  position: relative;
+}
+
+.creation__title {
+  font-family: var(--main-font);
+  font-style: normal;
+
+  @include font(18px, 700, 1.28);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+
+  color: var(--accent-color);
+
+  @media screen and(min-width:768px) {
+    @include font(24px, 700, 1.25);
+  }
+
+  @media screen and(min-width:1444px) {
+    @include font(36px, 700, 1.25);
+  }
+}
+
+.creation__item {
+  font-family: var(--main-font);
+
+  @include font(16px, 300, 1.25);
+
+  color: var(--primary-text-color);
+
+  @media screen and(min-width:1444px) {
+    @include font(18px, 300, 1.28);
+  }
+}
+.creation__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.creation__item::before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  border-radius: 3px 0px;
+  background: var(--accent-color);
+}
+
+.image-mod {
+  display: block;
+  background-image: url(../images/3D-Modelling-page/pic-mobile.jpg);
+  background-color: var(--primary-white-color);
+  background-repeat: no-repeat;
+  padding-bottom: 164px;
+  margin-top: 32px;
+  min-height: 146px;
+
+  @media screen and(min-width: 768px) {
+    position: absolute;
+    background-image: url(../images/3D-Modelling-page/pic-tablet.jpg);
+    padding-bottom: 0;
+    min-width: 246px;
+    min-height: 144px;
+    top: 4px;
+    right: 60px;
+  }
+
+  @media screen and(min-width: 1444px) {
+    position: absolute;
+    background-image: url(../images/3D-Modelling-page/pic-desktop.jpg);
+    padding-bottom: 0;
+    min-width: 515px;
+    min-height: 302px;
+    margin: 0;
+    top: -70px;
+    right: 175px;
+  }
+}
