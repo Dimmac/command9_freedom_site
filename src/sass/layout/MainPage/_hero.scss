@@ -1,10 +1,9 @@
 .hero {
-  padding-top: 12px;
+  padding-top: 32px;
 }
 .hero__title-container {
   width: 280px;
   margin: 0 auto;
-  margin-bottom: 32px;
 }
 .hero__title {
   font-family: Caviar Dreams;
@@ -16,7 +15,6 @@
   color: #2b2b2b;
 }
 .hero_content {
-  margin-bottom: 32px;
   display: flex;
   justify-content: center;
 }
@@ -48,6 +46,10 @@
 .anchor-svg {
   display: none;
 }
+.anchor-container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 @media screen and (min-width: 768px) {
   .anchor-svg {
     position: absolute;
@@ -56,9 +58,14 @@
   }
   .anchor-container {
     position: relative;
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
   .anchor-svg {
     display: block;
+  }
+  .hero {
+    padding-top: 35px;
   }
   .hero__title {
     font-size: 24px;
@@ -73,6 +80,9 @@
 }
 
 @media screen and (min-width: 1444px) {
+  .hero {
+    padding-top: 12px;
+  }
   .anchor-svg {
     left: 134px;
   }
@@ -84,5 +94,9 @@
   }
   .hero__desc {
     font-size: 36px;
+  }
+  .anchor-container {
+    margin-top: 62px;
+    margin-bottom: 106px;
   }
 }
