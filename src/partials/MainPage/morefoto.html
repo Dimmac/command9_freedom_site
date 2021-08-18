@@ -18,6 +18,8 @@
             srcset="./images/Main-page/More-photo-section/galery-image1-mobile.jpg"
           />
           <img
+            type="button"
+            data-modal-open
             class="more-foto__img"
             src="./images/Main-page/More-photo-section/galery-image1-desktop.jpg"
             alt=""
@@ -220,6 +222,30 @@
         </picture>
       </li>
     </ul>
+    <div class="more-foto__backdrop is-hidden" data-modal>
+      <button type="button" class="backdrop__btn-close" data-modal-close>X</button>
+      <div>
+        <picture>
+          <source
+            media="(min-width: 1444px)"
+            srcset="./images/Main-page/More-photo-section/galery-image1-desktop@2x.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/Main-page/More-photo-section/galery-image1-tablet@2x.jpg"
+          />
+          <source
+            media="(min-width:320px)"
+            srcset="./images/Main-page/More-photo-section/galery-image1-mobile@2x.jpg"
+          />
+          <img
+            class="more-foto__backdrop-img"
+            src="./images/Main-page/More-photo-section/galery-image1-desktop@2x.jpg"
+            alt=""
+          />
+        </picture>
+      </div>
+    </div>
 
     <button class="more-foto__btn" type="button"></button>
   </div>

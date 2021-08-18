@@ -75,16 +75,32 @@
   font-weight: bold;
   color: #487996;
 }
-/* .more-foto__item {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -16px;
+.more-foto__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.8);
+  z-index: 100;
+  transition-duration: 750ms;
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
-.more-foto__list {
-  margin: 16px;
+.more-foto__backdrop-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.more-foto__img {
-  display: block;
-  max-width: 100%;
-} */
-/* Main-page/More-photo-section/system-uicons_loader.png */
+.backdrop__btn-close {
+  background-color: rgba(43, 43, 43, 0.8);
+  border-radius: 50%;
+  border: none;
+  margin-left: 95%;
+  margin-top: 1%;
+  color: aliceblue;
+}
