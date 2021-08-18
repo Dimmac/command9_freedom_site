@@ -1658,6 +1658,53 @@ body {
   display: block;
 }
 
+  .wrrap {
+    margin-bottom: 57px;
+  }
+  .hero3d__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    padding-right: 135px;
+    margin-bottom: 16px;
+  }
+  .jpg-scan {
+    background-image: url(../images/3D-Scanning-page/Scanning_photo1-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 87%;
+    padding-bottom: 0px;
+  }
+  .transfer {
+    display: block;
+  }
+  .scanning3d__list {
+    margin-top: -12px;
+    margin-left: -12px;
+  }
+  .scanning3d__card {
+    width: 153px;
+    height: 210px;
+    margin-top: 12px;
+    margin-left: 12px;
+    padding-top: 17px;
+    overflow: hidden;
+    -ms-flex-preferred-size: calc((100% - 4 * 12px) / 4);
+        flex-basis: calc((100% - 4 * 12px) / 4);
+    -webkit-box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
+            box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #FFFFFF;
+    border-radius: 50px 0px;
+  }
+  .scanning3d__card-1::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/3D-Scanning-page/Scan_process1-tablet.png);
+    background-color: transparent;
+    background-size: 108px 94px;
+    width: 108px;
+    height: 94px;
+  }
+
 .scanning3d__list {
   margin-top: -12px;
   margin-left: -12px;
