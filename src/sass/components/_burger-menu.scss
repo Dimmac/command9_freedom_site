@@ -14,28 +14,7 @@
   pointer-events: none;
 
   background-color: var(--primary-white-color);
-
-  // background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
-  // background-size: 320px;
-  // background-repeat: no-repeat;
-  // background-position-x: 50%;
-  // background-color: var(--primary-white-color);
-
-  // @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //   background-image: url(../images/BG_pages/other_page/background_page-mobile@2x.png);
-  // }
 }
-
-// @media screen and (min-width: 768px) {
-//   .mobile-menu {
-//     background-image: url(../images/BG_pages/main_page/background_main-tablet.png);
-//     background-size: 768px;
-
-//     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-//       background-image: url(../images/BG_pages/main_page/background_main-tablet@2x.png);
-//     }
-//   }
-// }
 
 @media screen and (min-width: 1444px) {
   .mobile-menu {
@@ -44,7 +23,6 @@
 }
 
 .header-mobile {
-  // position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,19 +56,9 @@
 }
 
 .current {
-  //   @include font(24px, 500, 1.25);
-
-  // font-family: Cera Pro;
-  // font-style: normal;
-  // font-weight: bold;
-  // font-size: 24px;
-  // line-height: 30px;
-  // text-align: center;
-
   color: #fff;
   text-shadow: 0px 0px 3px #487996;
   mix-blend-mode: multiply;
-  // border: 1px solid var(--accent-color);
 }
 
 .mobile-nav__sub {

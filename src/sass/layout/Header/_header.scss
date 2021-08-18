@@ -8,6 +8,10 @@
   margin: 0 auto;
   padding: 29px 0;
 
+  // @media screen and (max-width: 320px) {
+  //   flex-wrap: wrap;
+  // }
+
   @include for-tablet {
     justify-content: space-between;
     padding: 20px 0;
