@@ -28,8 +28,6 @@
   }
 }
 
-
-
 .order-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -67,6 +65,7 @@
 } */
 
 .order-form__label {
+  position: relative;
   font-size: 16px;
   line-height: 1.25;
   color: var(--primary-text-color);
@@ -82,19 +81,23 @@
   margin-bottom: 4px;
   padding: 20px 22px;
   resize: none;
-  background-image: url(../images/SVG-icon/icons/paper_clip_icon.svg);
-  background-repeat: no-repeat;
-  background-position: 90% 90%;
-
+  
   &::placeholder {
     color: #cdcdcd;
   }
 }
 
-
 .order-form__message-notice {
   color: #cdcdcd;
   margin-bottom: 24px;
+}
+
+.paper-clip-icon{
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 84%;
+  top: 80%;
 }
 
 .order-form_button {
@@ -125,6 +128,11 @@
 
   .order-form__message-notice {
     margin-bottom: 44px;
+  }
+
+  .paper-clip-icon{
+    left: 90%;
+    top: 80%;
   }
 
   .order-form_button {
