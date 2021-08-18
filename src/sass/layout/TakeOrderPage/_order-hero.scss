@@ -58,6 +58,7 @@
   .hero-order_title {
     text-align: left;
     margin-bottom: 24px;
+    padding-top: 24px;
   }
 
   .heroto-description:nth-child(-n + 1) {
@@ -75,7 +76,7 @@
     background-image: url(../images/Take-order-page/order-image-desktop.jpg);
     background-repeat: no-repeat;
     border-radius: 15px;
-    background-position: 20% 54%;
+    background-position: 20% 62%;
   }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
