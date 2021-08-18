@@ -1,6 +1,6 @@
 .contacts-form {
-  margin-top: 52px;
-  margin-bottom: 52px;
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
 .contacts-form__title {
   margin-bottom: 28px;
@@ -70,24 +70,9 @@
     margin-top: 44px;
   }
 }
-@media screen and(max-width: 1443.98px) {
-  .contacts-visible {
-    display: none;
-  }
-}
 @include for-desktop {
-  .contacts-summ-section {
-    display: flex;
+  .contacts-form__main {
+    // position: absolute;
+    width: 516px;
   }
-  .contacts-wrapper {
-    display: none;
-  }
-  .contacts-data {
-    background-color: aqua;
-    display: flex;
-  }
-}
-
-.contacts-include-wrapper {
-  display: flex;
 }

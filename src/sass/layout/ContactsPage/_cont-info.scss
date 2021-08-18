@@ -7,13 +7,13 @@
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.contacts-data__list {
+.cont-data__list {
   padding-bottom: 76px;
 }
-.contacts-data__item:not(:last-child) {
+.cont-data__item:not(:last-child) {
   margin-bottom: 24px;
 }
-.contacts-data__description {
+.cont-data__description {
   font-family: Cera Pro;
   font-size: 16px;
   line-height: 1.25;
@@ -26,12 +26,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .contacts-data__list {
+  .cont-data__list {
     display: flex;
     justify-content: space-between;
   }
-  .contacts-data__description {
-    text-align: right;
+  .cont-data__description {
+    text-align: left;
   }
   .contacts-data__title {
     font-size: 24px;
@@ -40,53 +40,48 @@
 }
 
 @media screen and (min-width: 1444px) {
-  .order-form-section {
+  .cont-form-section {
     position: relative;
   }
-  .contacts-data__list{
+  .cont-data__list {
     position: absolute;
-    z-index: -1;
-    text-align: end;
-    left: 69%;
-    top: 636px;
+    z-index: 0;
+    text-align: start;
+    left: 50%;
+    top: 520px;
     flex-direction: column;
     margin-bottom: 0px;
+    width: 515px;
+  }
+  .cont-data__item:not(:last-child) {
+    margin-bottom: 68px;
   }
   .contacts-data__title {
     font-size: 36px;
   }
-  .contacts-data__description {
+  .cont-data__description {
     font-size: 18px;
-  }
-  .mosaic-img {
-    background-image: url(../images/Take-order-page/order-image5.png);    
-    background-repeat: no-repeat;
-    background-position: 0px 10px;
-    width: 570px;
-    height: 430px;
-    position: absolute;
-    right: -73px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
   (min-resolution: 192dpi) and (min-width: 1444px),
   (min-resolution: 2dppx) and (min-width: 1444px) {
-    .hero-section {
+  .hero-section {
     background-image: url(../images/Take-order-page/order-image5@2x.png);
   }
 }
-@media screen and (min-width: 1700px){
-  .contacts-data__list{
+@media screen and (min-width: 1700px) {
+  .cont-data__list {
     left: 66%;
   }
 }
-@media screen and (min-width: 1920px){
-  .contacts-data__list{
+@media screen and (min-width: 1920px) {
+  .cont-data__list {
     left: 65%;
   }
 }
-@media screen and (min-width: 2560px){
-  .contacts-data__list{
+@media screen and (min-width: 2560px) {
+  .cont-data__list {
     left: 61%;
   }
 }
