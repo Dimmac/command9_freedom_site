@@ -8,10 +8,6 @@
   margin: 0 auto;
   padding: 29px 0;
 
-  // @media screen and (max-width: 320px) {
-  //   flex-wrap: wrap;
-  // }
-
   @include for-tablet {
     justify-content: space-between;
     padding: 20px 0;
@@ -37,11 +33,10 @@
 .burger-btn {
   margin-right: 46px;
 
+  transition: fill 250ms linear;
   &:hover,
   &:focus {
     fill: #008cef;
-    // background-color: var(--primary-background-color);
-    // border-radius: 4px;
   }
 
   @include for-tablet {
@@ -53,10 +48,3 @@
     display: none;
   }
 }
-
-// Приклад для тренування
-
-// p {
-//   font-family: var(--secondary-font);
-//   @include font(25px, 300, 1.5);
-// }

@@ -28,6 +28,8 @@
   background-color: var(--primary-white-color);
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
   z-index: 1;
+    transition: display 250ms linear;
+
 
   .dropup:hover & {
     display: block;
@@ -53,6 +55,8 @@
 
   @include font(16px, 400, 1.25);
   letter-spacing: 0.01em;
+    transition: color 250ms linear;
+
 
   &:hover,
   &:focus {
