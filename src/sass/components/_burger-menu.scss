@@ -1,5 +1,4 @@
 .mobile-menu {
-  background: chartreuse;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -11,8 +10,8 @@
   z-index: 100;
 
   opacity: 1;
-  visibility: hidden;
-  pointer-events: none;
+  // visibility: hidden;
+  // pointer-events: none;
 
   background-image: url(../images/BG_pages/other_page/background_page-mobile.png);
   background-size: 320px;
@@ -38,6 +37,20 @@
 // @media screen and (min-width: 1444px) {
 //   display: none;
 // }
+
+.header-mobile {
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 29px 0;
+
+  @include for-tablet {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+}
 
 .mobile-nav__item:not(:last-child) {
   margin-bottom: 24px;

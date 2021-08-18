@@ -35,8 +35,9 @@
 
   &:hover,
   &:focus {
-    background-color: var(--primary-background-color);
-    border-radius: 4px;
+    fill: #008cef;
+    // background-color: var(--primary-background-color);
+    // border-radius: 4px;
   }
 
   @include for-tablet {
