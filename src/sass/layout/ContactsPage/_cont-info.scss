@@ -1,0 +1,87 @@
+/* contacts info */
+
+.contacts-data__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.cont-data__list {
+  padding-bottom: 76px;
+}
+.cont-data__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.cont-data__description {
+  font-family: Cera Pro;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+  margin-top: 8px;
+}
+.days {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cont-data__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cont-data__description {
+    text-align: left;
+  }
+  .contacts-data__title {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .cont-form-section {
+    position: relative;
+  }
+  .cont-data__list {
+    position: absolute;
+    z-index: 0;
+    text-align: start;
+    left: 50%;
+    top: 520px;
+    flex-direction: column;
+    margin-bottom: 0px;
+    width: 515px;
+  }
+  .cont-data__item:not(:last-child) {
+    margin-bottom: 68px;
+  }
+  .contacts-data__title {
+    font-size: 36px;
+  }
+  .cont-data__description {
+    font-size: 18px;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
+  (min-resolution: 192dpi) and (min-width: 1444px),
+  (min-resolution: 2dppx) and (min-width: 1444px) {
+  .hero-section {
+    background-image: url(../images/Take-order-page/order-image5@2x.png);
+  }
+}
+@media screen and (min-width: 1700px) {
+  .cont-data__list {
+    left: 66%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .cont-data__list {
+    left: 65%;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .cont-data__list {
+    left: 61%;
+  }
+}
