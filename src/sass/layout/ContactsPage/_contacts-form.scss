@@ -55,10 +55,6 @@
   height: 20px;
 }
 @include for-tablet {
-  // .contacts-form {
-  //   padding-right: 114px;
-  //   padding-left: 114px;
-  // }
   .contacts-form__title {
     text-align: center;
   }
@@ -70,13 +66,8 @@
   }
 }
 @include for-desktop {
-  .cont-form-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 189px;
-    padding-right: 189px;
-  }
   .contacts-form__main {
+    // position: absolute;
     width: 516px;
     margin-left: auto;
   }
