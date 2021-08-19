@@ -1,3 +1,4 @@
+
 {
   "name": "parcel-project-template",
   "version": "1.1.0",
@@ -5,10 +6,9 @@
   "main": "index.js",
   "homepage": "https://Dimmac.github.io/command9_freedom_site",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /command9_freedom_site/"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
