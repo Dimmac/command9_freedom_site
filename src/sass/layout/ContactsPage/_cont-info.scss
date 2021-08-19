@@ -56,8 +56,14 @@
   .contacts-data__title {
     font-size: 36px;
   }
-  .cont-data__description {
+  .cont-data__description,
+  .cont__description {
+    display: flex;
     font-size: 18px;
+  }
+  .cont__days,
+  .cont__hours {
+    display: contents;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
