@@ -20,7 +20,7 @@
   color: var(--primary-text-color);
   margin-top: 8px;
 }
-.days {
+.cont__days {
   display: block;
   width: 100%;
 }
@@ -47,7 +47,7 @@
     position: absolute;
     z-index: 0;
     text-align: start;
-    top: 57%;
+    top: 47%;
     flex-direction: column;
   }
   .cont-data__item:not(:last-child) {
