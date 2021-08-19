@@ -1,13 +1,10 @@
 // Випадаюче меню для зміни мови
-// змінити стилі з допомогою jqury
 .lang {
   border: none;
+  @include font(14px, 700, 1.29);
 
-  font-family: Caviar Dreams;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 18px;
+  font-family: var(--secondary-font);
+
   letter-spacing: 0.01em;
-  color: #bdbdbd;
+  color: var(--secondary-text-color);
 }
