@@ -13,6 +13,11 @@
 .smile {
   margin-left: 8px;
 }
+@media screen and(max-width: 320px) {
+  .description__foto {
+    width: 280px;
+  }
+}
 @include for-tablet {
   .description__wrapper {
     display: flex;
@@ -21,7 +26,7 @@
     margin-left: 20px;
   }
   .description__foto {
-    min-width: 247px;
+    // min-width: 247px;
     margin-right: 20px;
   }
   .description__text-item {
