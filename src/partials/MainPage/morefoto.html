@@ -18,7 +18,6 @@
             srcset="./images/Main-page/More-photo-section/galery-image1-mobile.jpg"
           />
           <img
-            type="button"
             data-modal-open
             class="more-foto__img"
             src="./images/Main-page/More-photo-section/galery-image1-desktop.jpg"
@@ -224,29 +223,121 @@
     </ul>
     <div class="more-foto__backdrop is-hidden" data-modal>
       <button type="button" class="backdrop__btn-close" data-modal-close>X</button>
-      <div>
-        <picture>
-          <source
-            media="(min-width: 1444px)"
-            srcset="./images/Main-page/More-photo-section/galery-image1-desktop@2x.jpg"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="./images/Main-page/More-photo-section/galery-image1-tablet@2x.jpg"
-          />
-          <source
-            media="(min-width:320px)"
-            srcset="./images/Main-page/More-photo-section/galery-image1-mobile@2x.jpg"
-          />
-          <img
-            class="more-foto__backdrop-img"
-            src="./images/Main-page/More-photo-section/galery-image1-desktop@2x.jpg"
-            alt=""
-          />
-        </picture>
+      <div class="slider-container">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+          <ul class="uk-slideshow-items">
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image1-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image2-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image3-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image4-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image5-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image6-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image7-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image8-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image9-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image10-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image11-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+            <li>
+              <img
+                class="more-foto__img"
+                src="./images/Main-page/More-photo-section/galery-image12-desktop.jpg"
+                alt=""
+                uk-cover
+              />
+            </li>
+          </ul>
+
+          <a
+            class="uk-position-center-left uk-position-small uk-hidden-hover"
+            href="#"
+            uk-slidenav-previous
+            uk-slideshow-item="previous"
+          ></a>
+          <a
+            class="uk-position-center-right uk-position-small uk-hidden-hover"
+            href="#"
+            uk-slidenav-next
+            uk-slideshow-item="next"
+          ></a>
+        </div>
       </div>
     </div>
-
-    <button class="more-foto__btn" type="button"></button>
   </div>
 </section>
