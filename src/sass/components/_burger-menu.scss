@@ -56,7 +56,10 @@
 
   &:hover,
   &:focus {
-    color: var(--secondary-text-color);
+    // color: var(--secondary-text-color);
+    color: var(--primary-white-color);
+    text-shadow: 0px 0px 3px #487996;
+    mix-blend-mode: multiply;
   }
 }
 
@@ -64,6 +67,10 @@
   color: var(--primary-white-color);
   text-shadow: 0px 0px 3px #487996;
   mix-blend-mode: multiply;
+
+  @include for-phone {
+    border: none;
+  }
 }
 
 .mobile-nav__sub {
