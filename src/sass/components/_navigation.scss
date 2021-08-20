@@ -1,7 +1,10 @@
-// Навігація по сайту
-
+// навігація
 .navigation {
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 280px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
     display: none;
   }
 
