@@ -15,7 +15,7 @@
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
   (min-resolution: 192dpi) and (min-width: 320px),
   (min-resolution: 2dppx) and (min-width: 320px) {
-    .hero-section {
+  .hero-section {
     background-image: url(../images/Take-order-page/order-image-mobile@2x.jpg);
   }
 }
@@ -43,15 +43,15 @@
     background-position: 12% 100%;
   }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  (min-resolution: 192dpi) and (min-width: 768px),
-  (min-resolution: 2dppx) and (min-width: 768px) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    (min-resolution: 192dpi) and (min-width: 768px),
+    (min-resolution: 2dppx) and (min-width: 768px) {
     .hero-section {
-    background-image: url(../images/Take-order-page/order-image-tablet@2x.jpg);
+      background-image: url(../images/Take-order-page/order-image-tablet@2x.jpg);
+    }
   }
-}
 
-  .hero-order__wraper{
+  .hero-order__wraper {
     display: block;
   }
 
@@ -79,13 +79,13 @@
     background-position: 20% 62%;
   }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
-  (min-resolution: 192dpi) and (min-width: 1444px),
-  (min-resolution: 2dppx) and (min-width: 1444px) {
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
+    (min-resolution: 192dpi) and (min-width: 1444px),
+    (min-resolution: 2dppx) and (min-width: 1444px) {
     .hero-section {
-    background-image: url(../images/Take-order-page/order-image-desktop@2x.jpg);
+      background-image: url(../images/Take-order-page/order-image-desktop@2x.jpg);
+    }
   }
-}
 
   .heroto-description:nth-child(-n + 2) {
     font-size: 18px;
@@ -95,7 +95,6 @@
 
   .description-wraper {
     padding-left: 552px;
-    
   }
   .three-pict {
     background-image: url(../images/Take-order-page/three-image.jpg);
@@ -109,7 +108,7 @@
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
   (min-resolution: 192dpi) and (min-width: 1444px),
   (min-resolution: 2dppx) and (min-width: 1444px) {
-    .hero-section {
+  .hero-section {
     background-image: url(../images/Take-order-page/three-image@2x.jpg);
   }
 }
