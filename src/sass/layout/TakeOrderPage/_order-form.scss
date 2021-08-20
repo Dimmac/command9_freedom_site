@@ -34,7 +34,6 @@
   }
 }
 
-
 .select-options {
   width: 100%;
   height: 24px;
@@ -83,7 +82,7 @@
   margin-bottom: 4px;
   padding: 20px 22px;
   resize: none;
-  
+
   &::placeholder {
     color: #cdcdcd;
   }
@@ -97,7 +96,7 @@
   margin-bottom: 24px;
 }
 
-.paper-clip-icon{
+.paper-clip-icon {
   position: absolute;
   width: 22px;
   height: 20px;
@@ -108,7 +107,6 @@
 
 .order-form_button {
   align-self: center;
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -134,7 +132,7 @@
     margin-bottom: 44px;
   }
 
-  .paper-clip-icon{
+  .paper-clip-icon {
     left: 90%;
     top: 80%;
   }
@@ -169,7 +167,7 @@
   .order-form__message-notice {
     font-size: 18px;
   }
-  .paper-clip-icon{
+  .paper-clip-icon {
     left: 91%;
     top: 80%;
   }
@@ -179,5 +177,4 @@
   .order-form__message {
     width: 100%;
   }
-  
 }
