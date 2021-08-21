@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.more-foto__img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
 .more-foto {
   @media screen and (min-width: 320px) and (max-width: 767px) {
     padding-bottom: 76px;
