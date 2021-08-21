@@ -15,21 +15,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../css/uikit.min.css" />
     <link rel="stylesheet" href="./sass/main.scss" />
   </head>
 
   <body class="bg">
     <include src="./partials/BaseComponents/header.html"></include>
     <main>
-      <include src="./partials/MainPage/mainpage.html"></include>
+      <include src="./partials/MainPage/hero.html"></include>
+      <include src="./partials/MainPage/gallery.html"></include>
       <include src="./partials/MainPage/morefoto.html"></include>
     </main>
     <include src="./partials/BaseComponents/footer.html"></include>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="./index.js"></script>
     <script src="./index.js"></script>
     <script src="./js/backdrop.js"></script>
     <script src="./js/menu.js"></script>
-
   </body>
 </html>
