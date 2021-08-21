@@ -1,73 +1,75 @@
 <!-- Мобільне меню -->
 <div class="mobile-menu bg" data-menu>
-        <div class="container-mobile container">
-            
-            <div class="header-mobile">
-                <a href="./index.html" class="logo link">
-                    <!-- <picture>
-                        <source media="(min-width: 280px)" srcset="
-                                                ./images/Logo-image/logo-mobile.png    1x,
-                                                ./images/Logo-image/logo-mobile@2x.png 2x
-                                              " />
-                    
-                        <source media="(min-width: 768px)" srcset="
-                                                ./images/Logo-image/logo-tablet.png    1x,
-                                                ./images/Logo-image/logo-tablet@2x.png 2x
-                                              " type="img/webp" />
-                        <source media="(min-width: 1444px)" srcset="
-                                                ./images/Logo-image/logo-desktop.png    1x,
-                                                ./images/Logo-image/logo-desktop@2x.png 2x
-                                              " />
-                        <img class="logo__img" src="./images/Logo-image/logo-mobile.png" alt="Логотип" />
-                    </picture> -->
-                </a>
-                
-                <button type="button" class="burger-btn burger-btn--close btn-svg" data-menu-close>
-                    <svg class="burger-btn__icon" width="45" height="45">
-                        <use href="./images/SVG-icon/svg_sprite-defs.svg#close_icon"></use>
-                    </svg>
-                </button>
-                
-                <div class="dropup">
-                    <button type="button" class="tel-btn btn-svg">
-                        <svg class="btn-tel__icon" width="24" height="24">
-                            <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
-                        </svg>
-                    </button>
-                    <div class="dropup-content">
-                        <a href="tel:+380936432288" class="dropup-content__link link">
-                            <svg class="tel__icon" width="14" height="14">
-                                <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
-                            </svg>
-                            +38 (093) 643 22 88
-                        </a>
-                        <a href="tel:+380503454423" class="dropup-content__link link">
-                            <svg class="tel__icon" width="14" height="14">
-                                <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
-                            </svg>
-                            +38 (050) 345 44 23
-                        </a>
-                    </div>
-                </div>
-                
-                <select name="lang" id="" class="lang">
-                    <option value="ENG">ENG</option>
-                    <option value="UKR">UKR</option>
-                    <option value="RUS">RUS</option>
-                </select>
-            </div>
+  <div class="container-mobile container">
 
-            <ul class="mobile-nav">
-                <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link link current">ГОЛОВНА</a></li>
-                <li class="mobile-nav__item mobile-nav__link">ПОСЛУГИ
-                    <ul class="mobile-nav__sub">
-                        <li class="mobile-nav__item"><a href="./modeling.html" class="mobile-nav__link mobile-nav__link--sub link">3D Моделювання</a></li>
-                        <li class="mobile-nav__item"><a href="./scanning.html" class="mobile-nav__link mobile-nav__link--sub link">3D Сканування</a></li>
-                        <li class="mobile-nav__item"><a href="./printing.html" class="mobile-nav__link mobile-nav__link--sub link">3D Друк</a></li>
-                    </ul>
-                </li>
-                <li class="mobile-nav__item"><a href="./takeorder.html" class="mobile-nav__link link">ЗАМОВИТИ</a></li>
-                <li class="mobile-nav__item"><a href="./contacts.html" class="mobile-nav__link link">КОНТАКТИ</a></li>
-            </ul>
+    <div class="header-mobile">
+      <a href="./index.html" class="logo link">
+
+        <picture>
+
+          <source media="(min-width: 768px)" srcset="
+              ./images/Logo-image/logo-tablet.png    1x,
+              ./images/Logo-image/logo-tablet@2x.png 2x
+            " />
+
+          <source media="(max-width: 767px)" srcset="
+              ./images/Logo-image/logo-mobile.png    1x,
+              ./images/Logo-image/logo-mobile@2x.png 2x
+            " />
+          <img class="logo__img" src="#" alt="Логотип" />
+
+        </picture>
+      </a>
+
+      <button type="button" class="burger-btn burger-btn--close btn-svg" data-menu-close>
+        <svg class="burger-btn__icon" width="45" height="45">
+          <use href="./images/SVG-icon/svg_sprite-defs.svg#close_icon"></use>
+        </svg>
+      </button>
+
+      <div class="dropup">
+        <button type="button" class="tel-btn btn-svg">
+          <svg class="btn-tel__icon" width="24" height="24">
+            <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+          </svg>
+        </button>
+        <div class="dropup-content">
+          <a href="tel:+380936432288" class="dropup-content__link link">
+            <svg class="tel__icon" width="14" height="14">
+              <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+            </svg>
+            +38 (093) 643 22 88
+          </a>
+          <a href="tel:+380503454423" class="dropup-content__link link">
+            <svg class="tel__icon" width="14" height="14">
+              <use href="./images/SVG-icon/svg_sprite-defs.svg#round_call_icon"></use>
+            </svg>
+            +38 (050) 345 44 23
+          </a>
         </div>
+      </div>
+
+      <select name="lang" id="" class="lang">
+        <option value="ENG">ENG</option>
+        <option value="UKR">UKR</option>
+        <option value="RUS">RUS</option>
+      </select>
     </div>
+
+    <ul class="mobile-nav">
+      <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link link current">ГОЛОВНА</a></li>
+      <li class="mobile-nav__item mobile-nav__link">ПОСЛУГИ
+        <ul class="mobile-nav__sub">
+          <li class="mobile-nav__item"><a href="./modeling.html" class="mobile-nav__link mobile-nav__link--sub link">3D
+              Моделювання</a></li>
+          <li class="mobile-nav__item"><a href="./scanning.html" class="mobile-nav__link mobile-nav__link--sub link">3D
+              Сканування</a></li>
+          <li class="mobile-nav__item"><a href="./printing.html" class="mobile-nav__link mobile-nav__link--sub link">3D
+              Друк</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item"><a href="./takeorder.html" class="mobile-nav__link link">ЗАМОВИТИ</a></li>
+      <li class="mobile-nav__item"><a href="./contacts.html" class="mobile-nav__link link">КОНТАКТИ</a></li>
+    </ul>
+  </div>
+</div>
