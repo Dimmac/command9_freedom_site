@@ -54,7 +54,7 @@
 @media screen and (min-width: 768px) {
   .anchor-svg {
     position: absolute;
-    bottom: -15px;
+    bottom: 5px;
     left: 72px;
   }
   .anchor-container {
@@ -85,7 +85,8 @@
     padding-top: 73px;
   }
   .anchor-svg {
-    left: 134px;
+    top: 105%;
+    left: 5%;
   }
   .hero__title {
     font-size: 48px;
@@ -97,7 +98,7 @@
     font-size: 36px;
   }
   .anchor-container {
-    margin-top: 62px;
-    margin-bottom: 106px;
+    margin-top: 68px;
+    margin-bottom: 100px;
   }
 }
